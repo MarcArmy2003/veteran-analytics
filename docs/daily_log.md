@@ -72,3 +72,31 @@
 
 * **Immediate Goal:** Refine the `sheets_reader.py` script to successfully load data from all worksheets by correctly handling the problematic headers.
 * **Future Goal:** Integrate the now-functional data-loading script into a Flask application to create the first API endpoints.
+
+## VISTA Project Log: 2025-06-12
+
+**Session Time:** 02:30 PM EDT
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+* **Objective 1:** Define the high-level technical architecture for the VISTA project.
+* **Decision:** We established the core strategy of moving from static files to a dynamic, API-driven system. The plan is to build a Python backend using Flask that reads data from a Google Sheet and serves it to the VISTA Custom GPT via a custom API.
+* **Decision:** Agreed on a strategy to overcome the 30 `operationId` limit in Custom GPTs by designing generalized, parameterized API actions. The backend API would handle the complex logic of mapping these general calls to specific data sources listed in the Google Sheet.
+
+---
+
+### ⚠️ Challenges & Roadblocks
+
+* **Issue:** How to integrate VISTA with over 100 identified `data.va.gov` resources without violating the 30 `operationId` limit for GPT Actions.
+* **Solution:** The chosen solution was to create a few broad API endpoints (e.g., `getDemographicsData`) that accept a `dataset` parameter. This allows the GPT to make a simple call, while the Python backend uses the parameter to look up the correct, specific data source from the master Google Sheet.
+* **Issue:** Potential for hitting API rate limits from our data sources.
+* **Solution:** We proactively reviewed the specific API quotas for both the Google Sheets API and `data.va.gov` to ensure the architecture would be robust and to plan for future scaling.
+
+---
+
+### 🚀 Next Steps
+
+* **Immediate Goal:** Begin the practical, hands-on development by setting up the necessary Google Cloud Project and service account credentials for the Google Sheets API.
+* **Future Goal:** Write the initial Python script to programmatically connect to the Google Sheet and read the data, which would serve as the foundation for the Flask API.
