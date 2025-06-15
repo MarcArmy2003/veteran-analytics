@@ -1,0 +1,85 @@
+openapi: 3.1.0
+info:
+  title: VISTA Backend Data API
+  version: 1.0.0
+  description: API for accessing VA and Census data from Google Sheets for the VISTA Custom GPT.
+servers:
+  # This is the public URL that Cloudflare Tunnel provided.
+  # KEEP BOTH YOUR FLASK APP AND CLOUDFLARE TUNNEL TERMINALS OPEN AND RUNNING.
+  - url: https://letter-mario-lexington-sunny.trycloudflare.com
+    description: Public URL via Cloudflare Tunnel
+paths:
+  /query_api_paths:
+    get:
+      operationId: queryApiPaths
+      summary: Query specific VA API paths by category or name from the 'API Name and Path' sheet.
+      parameters:
+        - name: category
+          in: query
+          description: Filter by API categorization (e.g., Demographics, Benefits & Claims).
+          required: false
+          schema:
+            type: string
+        - name: api_name
+          in: query
+          description: Filter by API name or dataset table name (e.g., VetPop).
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A list of matching API paths and their details.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    Categorization: { type: string }
+                    Source: { type: string }
+                    Dataset / Table Name: { type: string }
+                    API Path: { type: string }
+                    operationId: { type: string }
+                    Description / Summary: { type: string }
+        '404':
+          description: No matching API paths found.
+
+  /query_census_apis_full_list:
+    get:
+      operationId: queryCensusApisFullList
+      summary: Query U.S. Census Bureau API datasets by name or year from the 'Census Bureau APIs - Full List' sheet.
+      parameters:
+        - name: dataset_name
+          in: query
+          description: Filter by Census dataset name (e.g., cbp, acs).
+          required: false
+          schema:
+            type: string
+        - name: year
+          in: query
+          description: Filter by year (e.g., 1986). This searches within the API Base URL.
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A list of matching Census API datasets.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    Dataset Name: { type: string }
+                    Dataset Type: { type: string }
+                    Geography List: { type: string }
+                    Variable List: { type: string }
+                    Group List: { type: string }
+                    SortList: { type: string }
+                    Examples: { type: string }
+                    Developer Documentation: { type: string }
+                    API Base URL: { type: string }
+        '404':
+          description: No matching Census APIs found.
