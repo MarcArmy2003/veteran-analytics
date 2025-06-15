@@ -19,3 +19,30 @@
 
 * **Immediate Goal:** Run the `definitive_chunker.py` script from the `C:\VISTA_TEMP` directory to process all the source `.xls` files.
 * **Future Goal:** After the script successfully converts all files, copy the cleaned `.txt` files from the output folder back into the main `VISTA_Repository`, sync the repository with Google Cloud Storage, and trigger a `MANUAL SYNC` in Vertex AI to complete the data ingestion.
+
+## VISTA Project Log: 2025-06-14
+
+**Session Time:** 11:55 PM EDT
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+* **Objective 1:** Build a live API backend to replace static data sources for the VISTA Custom GPT.
+* **Decision:** We decided to use Python with Flask for the backend, `gspread` to read from Google Sheets, and `pandas` for data manipulation.
+* **Code Created/Modified:** Created the initial `sheets_reader.py` to connect to the Google Sheet and a full `app.py` Flask application to serve the data via queryable endpoints.
+* **Key Accomplishment:** Successfully connected the VISTA Custom GPT to the local Flask API via a Cloudflare Tunnel and received valid data from test queries, proving the end-to-end circuit works.
+
+### ⚠️ Challenges & Roadblocks
+
+* **Issue:** The initial Python environment setup failed because the `python` command was intercepted by a Microsoft Store alias.
+* **Solution:** We bypassed this by using the `py` command and later, by calling the `python.exe` executable with its full, absolute path from within the virtual environment's `Scripts` folder.
+* **Issue:** The `gspread` library threw multiple authentication and attribute errors (e.g., `'Client' object has no attribute 'open_by_id'`), and header parsing errors (`the header row in the worksheet contains duplicates: ['']`).
+* **Solution:** We resolved this through an iterative process of revising the script to handle authentication more explicitly and then adding logic to manually parse the headers from the specific worksheets that were causing the problem.
+* **Issue:** The `ngrok` tunneling service was flagged as a potential trojan by Windows Defender, preventing its use.
+* **Solution:** We pivoted to using Cloudflare Tunnel (`cloudflared.exe`) as a more secure and reliable alternative to expose the local API to the internet.
+
+### 🚀 Next Steps
+
+* **Immediate Goal:** Transition from the temporary Cloudflare Tunnel to a permanent, stable URL for the API backend.
+* **Future Goal:** Deploy the Flask application to Google Cloud Run to provide a production-ready API endpoint, which will allow for further iteration on the VISTA Custom GPT's instructions and capabilities.
