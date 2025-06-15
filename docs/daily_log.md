@@ -46,3 +46,29 @@
 
 * **Immediate Goal:** Transition from the temporary Cloudflare Tunnel to a permanent, stable URL for the API backend.
 * **Future Goal:** Deploy the Flask application to Google Cloud Run to provide a production-ready API endpoint, which will allow for further iteration on the VISTA Custom GPT's instructions and capabilities.
+
+## VISTA Project Log: 2025-06-13
+
+**Session Time:** 11:45 PM EDT
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+* **Objective 1:** Set up the foundational Google Cloud and local Python environments required to build the VISTA API backend.
+* **Decision:** We committed to using a service account with a downloadable JSON key for server-to-server authentication between the Python script and the Google Sheets API. This is a more secure and scalable method than using user-based OAuth.
+* **Code Created/Modified:** Wrote the first version of the `sheets_reader.py` script, which established the core logic for connecting to the spreadsheet and attempting to read data from the specified worksheets.
+
+### ⚠️ Challenges & Roadblocks
+
+* **Issue:** The Python executable was not installed or correctly added to the system's PATH, causing the initial `python -m venv venv` command to fail.
+* **Solution:** The user installed Python directly, which allowed us to create and activate the virtual environment and proceed with installing the necessary libraries (`gspread`, `pandas`, `Flask`).
+* **Issue:** We encountered a persistent `AttributeError: 'Client' object has no attribute 'open_by_id'` when using `gspread`.
+* **Solution:** After multiple attempts to fix this by re-authenticating and trying different `gspread` client initialization methods, we pivoted to opening the sheet by its title. This revealed the true underlying problem: a `SpreadsheetNotFound` error, which we correctly diagnosed as the service account not having "Viewer" permissions on the Google Sheet.
+* **Issue:** After fixing the permissions, the script failed with a new error: `the header row in the worksheet contains duplicates: ['']`.
+* **Solution:** We identified that this was due to merged cells or empty columns in the header row of the "API Name and Path" and "Census Bureau APIs - Full List" worksheets. The decision was made to handle this by adding specific logic to the script to manually parse the headers for those sheets.
+
+### 🚀 Next Steps
+
+* **Immediate Goal:** Refine the `sheets_reader.py` script to successfully load data from all worksheets by correctly handling the problematic headers.
+* **Future Goal:** Integrate the now-functional data-loading script into a Flask application to create the first API endpoints.
