@@ -67,6 +67,13 @@ For a deeper dive into the project's architecture, goals, and technical implemen
   * **[Project Overview](https://www.google.com/search?q=docs/project-overview.md)**: A high-level summary of the project.
   * **[VISTA Codex (Knowledge Base)](https://www.google.com/search?q=docs/vista_gem_codex.md)**: The technical specifications and project memory for the VISTA system.
 
+---
+### 📘 DAILY LOG – VISTA DEVELOPMENT
+
+➡️ [Click here for the full daily development log](https://github.com/MarcArmy2003/veteran-analytics/blob/main/docs/daily_log.md)
+
+Includes detailed progress tracking, session notes, environment changes, file migrations, and system debugging activities.
+
 -----
 
 ### ⚖️ Legal
