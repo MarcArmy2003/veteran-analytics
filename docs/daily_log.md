@@ -1,3 +1,65 @@
+## 🗓️ Date: 2025-06-16  
+**Developer:** Gillon Marchetti  
+**Project:** Veteran Analytics – VISTA API Backend  
+**Environment:** Windows (CMD + Git Bash), GitHub, local venv  
+**Repo:** https://github.com/MarcArmy2003/veteran-analytics  
+
+---
+
+### ✅ Summary of Work Performed
+
+#### 🧱 Repository Reorganization (Structural Refactor)
+- Defined a standardized repository layout where `veteran-analytics` serves as the parent project, and `vista-api-backend` is located under `src/`.
+- Created or confirmed presence of high-level folders:
+  - `src/`
+  - `docs/`
+  - `assets/`
+  - `legal/`
+- Created nested backend structure under `src/vista-api-backend`:
+  - `app/`
+  - `data/`
+  - `scripts/`
+  - `specs/`
+  - `docs/`
+  - `openapi_spec.yaml`, `Dockerfile`, `requirements.txt`
+
+#### 📁 Manual File Moves (CMD)
+- Encountered Windows-specific move restrictions (`Access is denied`)
+- Used `rmdir /s /q` to remove locked directories before successful relocation
+- Successfully moved:
+  - `app/` → `src/vista-api-backend/app/`
+  - `scripts/` → `src/vista-api-backend/scripts/`
+  - `specs/` → `src/vista-api-backend/specs/`
+  - `data/` → `src/vista-api-backend/data/`
+  - Top-level files (`Dockerfile`, `requirements.txt`, `openapi_spec.yaml`) to backend root
+
+#### 🔧 Git Operations
+- Resolved `git push` rejection due to remote divergence
+- Performed a clean `git pull`, managed in-terminal merge via Vim/Nano
+- Committed and pushed resolved merge: `Moved backend files into src/vista-api-backend`
+
+#### 📁 Markdown & Documentation
+- Added `[Gemini Gem Setup Guide](docs/vista_gem_codex.md)` and `[Daily Log Template](docs/daily_log_template.md)` to the main `README.md`
+- Created and organized `TRADEMARK.md`, `TERMS.md`, and `LICENSE` under `/legal`
+- Updated and committed `README.md` to reflect current architecture and project scope
+
+---
+
+### 🚧 Outstanding Tasks / Follow-Up
+- Finish confirming all backend folders were fully migrated and no residual folders remain in root
+- Re-test Python app execution after refactor (`flask run` or entrypoint)
+- Validate all relative paths in `Dockerfile`, `requirements.txt`, and Python imports
+- Update OpenAPI spec paths if affected by move
+- Begin front-end or deployment layer planning (Cloud Run or App Engine)
+
+---
+
+### 🔖 Notes
+- Editor for Git merge was likely Vim (resolved with `:wq`)
+- Repeated Git guidance helped build confidence in repo hygiene
+- Markdown links require raw content path (`raw.githubusercontent.com/...`) for Gemini ingestion
+
+
 ## VISTA Project Log: 2025-06-15
 
 **Session Time:** 11:15 AM EDT
