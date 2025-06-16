@@ -1,3 +1,110 @@
+## 🗓️ Date: 2025-06-16  
+**Developer:** Gillon Marchetti  
+**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis  
+**Session Time:** 12:05 AM EDT  
+**Environment:** Local Python venv, OneDrive, gcloud CLI, Google Cloud Storage  
+**File(s) Modified:** `definitive_chunker.py`  
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+#### 📌 Objective
+- Diagnose the root cause of Vertex AI ingestion failures due to oversized `.txt` chunk files exceeding the 2.5MB limit.
+
+#### 🧠 Key Findings
+- The issue was traced to the use of `pandas.to_markdown()`, which inflated file size unpredictably depending on cell contents and formatting.
+- Estimations based on row/column counts were insufficient to prevent oversize output.
+
+#### 🛠️ Fix Implemented
+- Developed `definitive_chunker.py v2`, which now:
+  - Calculates actual byte size (`len(content.encode("utf-8"))`) of each Markdown-rendered chunk
+  - Hard-caps chunk file sizes below the ingestion threshold before writing to disk
+
+#### 📝 Documentation / Process Refinement
+- Clarified full data handling workflow:
+  - Temporary workspace: `C:\VISTA_TEMP` (used to avoid OneDrive sync interference)
+  - Upload command: `gcloud storage rsync` for precise deployment to GCS ingestion bucket
+
+#### 🧯 Contingency Plan
+- If size-control script fails again, escalate to using a dedicated cloud-native ETL system (e.g., **Google Cloud Dataflow**) for pipeline control and scaling.
+
+---
+
+### ⚠️ Challenges & Roadblocks
+
+#### 🔄 First Attempt Failure
+- Lowering `MAX_CHUNK_SIZE` in the original script was insufficient; multiple `.txt` files still exceeded 5MB in actual size.
+
+#### 🧩 Root Cause
+- Markdown rendering unpredictably increased file size.
+- The script’s estimation logic failed to account for text expansion caused by formatting characters and cell value length.
+
+---
+
+### 🚀 Next Steps
+
+#### 🎯 Immediate Goal
+- Run full end-to-end execution of the chunking and conversion process using `definitive_chunker.py v2`.
+- Validate that all `.txt` outputs conform to Vertex AI's ingestion requirements (<2.5MB/file).
+
+#### 📡 Near-Term Target
+- After successful ingestion, initiate **retrieval augmentation (RAG)** testing within Vertex AI using newly processed data.
+
+---
+
+#### 🧱 Repository Reorganization (Structural Refactor)
+- Defined a standardized repository layout where `veteran-analytics` serves as the parent project, and `vista-api-backend` is located under `src/`.
+- Created or confirmed presence of high-level folders:
+  - `src/`
+  - `docs/`
+  - `assets/`
+  - `legal/`
+- Created nested backend structure under `src/vista-api-backend`:
+  - `app/`
+  - `data/`
+  - `scripts/`
+  - `specs/`
+  - `docs/`
+  - `openapi_spec.yaml`, `Dockerfile`, `requirements.txt`
+
+#### 📁 Manual File Moves (CMD)
+- Encountered Windows-specific move restrictions (`Access is denied`)
+- Used `rmdir /s /q` to remove locked directories before successful relocation
+- Successfully moved:
+  - `app/` → `src/vista-api-backend/app/`
+  - `scripts/` → `src/vista-api-backend/scripts/`
+  - `specs/` → `src/vista-api-backend/specs/`
+  - `data/` → `src/vista-api-backend/data/`
+  - Top-level files (`Dockerfile`, `requirements.txt`, `openapi_spec.yaml`) to backend root
+
+#### 🔧 Git Operations
+- Resolved `git push` rejection due to remote divergence
+- Performed a clean `git pull`, managed in-terminal merge via Vim/Nano
+- Committed and pushed resolved merge: `Moved backend files into src/vista-api-backend`
+
+#### 📁 Markdown & Documentation
+- Added `[Gemini Gem Setup Guide](docs/vista_gem_codex.md)` and `[Daily Log Template](docs/daily_log_template.md)` to the main `README.md`
+- Created and organized `TRADEMARK.md`, `TERMS.md`, and `LICENSE` under `/legal`
+- Updated and committed `README.md` to reflect current architecture and project scope
+
+---
+
+### 🚧 Outstanding Tasks / Follow-Up
+- Finish confirming all backend folders were fully migrated and no residual folders remain in root
+- Re-test Python app execution after refactor (`flask run` or entrypoint)
+- Validate all relative paths in `Dockerfile`, `requirements.txt`, and Python imports
+- Update OpenAPI spec paths if affected by move
+- Begin front-end or deployment layer planning (Cloud Run or App Engine)
+
+---
+
+### 🔖 Notes
+- Editor for Git merge was likely Vim (resolved with `:wq`)
+- Repeated Git guidance helped build confidence in repo hygiene
+- Markdown links require raw content path (`raw.githubusercontent.com/...`) for Gemini ingestion
+
+
 ## VISTA Project Log: 2025-06-15
 
 **Session Time:** 11:15 AM EDT
