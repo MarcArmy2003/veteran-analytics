@@ -1,3 +1,61 @@
+⸻
+
+###VISTA Project Log: 2025-06-16###
+
+Session Time: 10:27 PM EDT → Close of day
+Developer: Gillon Marchetti
+Environment: Local Git CLI, GitHub UI, Windows Command Line
+
+⸻
+
+✅ Accomplishments & Key Decisions
+	•	Objective 1: Diagnose and resolve the Vertex AI data ingestion failure where files were exceeding the size limit, even after initial chunking attempts.
+	•	Objective 2: Improve the project’s file structure integrity on GitHub, correct repository submodule behavior, and enable proper frontend folder browsing.
+	•	Decision (Chunking Logic): The script’s size estimation was inaccurate due to the overhead of markdown formatting. The definitive solution was to calculate the actual byte size of the UTF-8 encoded markdown content prior to file write.
+	•	Decision (File Conversion): Introduced a pre-processing step to automatically convert .xls to .xlsx files using pyexcel to prevent runtime incompatibilities.
+	•	Decision (Submodule Resolution): Resolved a lingering Git submodule state for src/vista-api-backend/ by manually clearing the Git index, removing metadata, and restoring the backend as a standard directory.
+	•	Code Created/Modified:
+	•	definitive_chunker_v4.py – includes byte-precise markdown output sizing and file format conversion.
+	•	openapi_spec.yaml – refined parameter descriptions and examples for enhanced usability.
+	•	app.py – added comprehensive docstrings and inline commentary for maintainability.
+	•	API Specification: Updated openapi_spec.yaml to clarify query parameters for API path selection and Census dataset queries.
+	•	CI/CD Planning: Drafted a pylint.yml GitHub Actions workflow to enforce static code quality checks during automated builds.
+	•	Repository Hygiene:
+	•	Removed all submodule traces from .git/config and Git index.
+	•	Re-added the vista-api-backend/ directory under src/ as a regular Git-tracked folder.
+	•	Validated final folder appearance via GitHub UI—resolved submodule icon issue and ensured all backend files are explorable in-browser.
+
+⸻
+
+⚠️ Challenges & Roadblocks
+	•	Vertex AI File Rejections:
+	•	Hundreds of .txt files continued exceeding the 2.5MB ingestion limit despite chunking.
+	•	Root Cause: Markdown rendering via pandas.to_markdown() introduced unpredictable size inflation. Resolved by calculating the encoded byte size of final content.
+	•	Python Runtime Failures:
+	•	FileNotFoundError from misconfigured input folder paths.
+	•	Missing optional dependency 'openpyxl' for Excel I/O – resolved via package installation.
+	•	WinError 32 due to improper file handling – resolved by refactoring script to close handles via with context manager.
+	•	Git Submodule Persistence:
+	•	Despite prior removal attempts, GitHub displayed vista-api-backend/ as a submodule (arrow icon, inaccessible folder).
+	•	Resolved by deleting cached folder references, clearing .git/config, and recommitting the directory structure cleanly.
+
+⸻
+
+🚀 Next Steps
+	•	Immediate Task: Validate that definitive_chunker_v4.py completes successfully and produces sub-2.5MB .txt outputs across all datasets.
+	•	Ingestion Finalization:
+	•	Purge previous ingest attempts from GCS (vista-api-backend-rag-files)
+	•	Deploy new data using gcloud storage rsync
+	•	Trigger the ingestion pipeline within Vertex AI for final verification
+	•	Post-Ingestion Tasks:
+	•	Confirm file visibility, completeness, and integrity within Vertex AI’s retrieval system
+	•	Begin formal API endpoint testing
+	•	Commit finalized GitHub Actions CI/CD workflow (pylint.yml) and integrate automated checks into future pushes
+
+⸻
+
+Let me know if you’d like this posted directly to daily_log.md in a commit-ready format.
+
 ## 🗓️ Date: 2025-06-16  
 **Developer:** Gillon Marchetti  
 **Project:** VISTA – Veteran Insights & Statistics Tool for Analysis  
