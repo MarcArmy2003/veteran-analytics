@@ -45,173 +45,69 @@
 - **Future Goal:** Diagnose and fix the "header row contains duplicates" error in the Flask API when deployed to Google Cloud Run to ensure a stable, permanent URL for the backend.
 - **Future Goal:** Refine the VISTA Custom GPT's instructions to optimize its interaction with the deployed API and RAG system for more intuitive and powerful natural language responses.
 
-## 🗓️ Date: 2025-06-16  
-**Developer:** Gillon Marchetti  
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis  
-**Session Time:** 10:27 PM EDT → Close of day  
-**Environment:** Local Git CLI, GitHub UI, Windows Command Line
+## 🗓️ Date: 2025-06-19
+**Developer:** Gillon Marchetti
+**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+**Session Time:** 12:15 PM EDT
+**Environment:** Local Python venv, Windows Command Line, Google Cloud
 
 ---
 
 ### ✅ Accomplishments & Key Decisions
 
-- **Objective 1:** Diagnose and resolve the Vertex AI data ingestion failure where files were exceeding the size limit, even after initial chunking attempts.
-- **Objective 2:** Improve the project’s file structure integrity on GitHub, correct repository submodule behavior, and enable proper frontend folder browsing.
-- **Decision (Chunking Logic):** The script's size estimation was inaccurate due to the overhead of markdown formatting. The definitive solution was to calculate the actual byte size of the UTF-8 encoded markdown content prior to file write.
-- **Decision (File Conversion):** Introduced a pre-processing step to automatically convert `.xls` to `.xlsx` files using `pyexcel` to prevent runtime incompatibilities.
-- **Decision (Submodule Resolution):** Resolved a lingering Git submodule state for `src/vista-api-backend/` by manually clearing the Git index, removing metadata, and restoring the backend as a standard directory.
-- **Code Created/Modified:**
-  - `definitive_chunker_v4.py` – includes byte-precise markdown output sizing and file format conversion.
-  - `openapi_spec.yaml` – refined parameter descriptions and examples for enhanced usability.
-  - `app.py` – added comprehensive docstrings and inline commentary for maintainability.
-- **API Specification:** Updated `openapi_spec.yaml` to clarify query parameters for API path selection and Census dataset queries.
-- **CI/CD Planning:** Drafted a `pylint.yml` GitHub Actions workflow to enforce static code quality checks during automated builds.
-- **Repository Hygiene:**
-  - Removed all submodule traces from `.git/config` and Git index.
-  - Re-added the `vista-api-backend/` directory under `src/` as a regular Git-tracked folder.
-  - Validated final folder appearance via GitHub UI—resolved submodule icon issue and ensured all backend files are explorable in-browser.
-
----
+- **Objective 1:** Integrated Excel conversion and chunking into a unified pipeline.
+- **Decision:** All Excel files are converted to individual CSVs per worksheet, then chunked into markdown `.txt` files under 2MB. Intermediate CSVs are removed.
+- **Code Created/Modified:** `xls_to_csv_and_chunk.py` handles sheet detection, CSV export, chunking, and cleanup.
+- **Objective 2:** Established a master source index for veteran research material with a four-tier hierarchy prioritizing open federal sources such as M21-1, Title 38 CFR, VA Forms, VetPop, and BVA decisions.
 
 ### ⚠️ Challenges & Roadblocks
 
-- **Vertex AI File Rejections:**
-  - Hundreds of `.txt` files continued exceeding the 2.5MB ingestion limit despite chunking.
-  - **Root Cause:** Markdown rendering via `pandas.to_markdown()` introduced unpredictable size inflation. Resolved by calculating the encoded byte size of final content.
-- **Python Runtime Failures:**
-  - `FileNotFoundError` from misconfigured input folder paths.
-  - `Missing optional dependency 'openpyxl'` for Excel I/O – resolved via package installation.
-  - `WinError 32` due to improper file handling – resolved by refactoring script to close handles via `with` context manager.
-- **Git Submodule Persistence:**
-  - Despite prior removal attempts, GitHub displayed `vista-api-backend/` as a submodule (arrow icon, inaccessible folder).
-  - Resolved by deleting cached folder references, clearing `.git/config`, and recommitting the directory structure cleanly.
-
----
+- Earlier scripts failed with multi-worksheet files and inconsistent chunk sizes. Rewrote the logic with sheet name sanitization and size checks.
+- Consolidating fragmented source data required a centralized retrieval strategy with metadata tagging.
 
 ### 🚀 Next Steps
 
-- **Immediate Task:** Validate that `definitive_chunker_v4.py` completes successfully and produces sub-2.5MB `.txt` outputs across all datasets.
-- **Ingestion Finalization:**
-  - Purge previous ingest attempts from GCS (`vista-api-backend-rag-files`)
-  - Deploy new data using `gcloud storage rsync`
-  - Trigger the ingestion pipeline within Vertex AI for final verification
-- **Post-Ingestion Tasks:**
-  - Confirm file visibility, completeness, and integrity within Vertex AI's retrieval system
-  - Begin formal API endpoint testing
-  - Commit finalized GitHub Actions CI/CD workflow (`pylint.yml`) and integrate automated checks into future pushes
+- Run the new script on all historical Excel files in `C:\VISTA_TEMP\data\XLS_TO_PROCESS`.
+- Develop an automated pipeline to monitor new Excel files and prepare them for Vertex AI ingestion.
+- Begin ingestion and schema mapping of the curated veteran benefits and exposure data.
 
-⸻
-
-## 🗓️ Date: 2025-06-16  
-**Developer:** Gillon Marchetti  
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis  
-**Session Time:** 12:05 AM EDT  
-**Environment:** Local Python venv, OneDrive, gcloud CLI, Google Cloud Storage  
-**File(s) Modified:** `definitive_chunker.py`  
+## 🗓️ Date: 2025-06-16
+**Developer:** Gillon Marchetti
+**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+**Session Time:** 12:05 AM–10:27 PM EDT
+**Environment:** Local Python venv, Git CLI, GitHub UI, OneDrive, gcloud CLI, Google Cloud Storage, Windows Command Line
 
 ---
 
 ### ✅ Accomplishments & Key Decisions
 
-#### 📌 Objective
-- Diagnose the root cause of Vertex AI ingestion failures due to oversized `.txt` chunk files exceeding the 2.5MB limit.
-
-#### 🧠 Key Findings
-- The issue was traced to the use of `pandas.to_markdown()`, which inflated file size unpredictably depending on cell contents and formatting.
-- Estimations based on row/column counts were insufficient to prevent oversize output.
-
-#### 🛠️ Fix Implemented
-- Developed `definitive_chunker.py v2`, which now:
-  - Calculates actual byte size (`len(content.encode("utf-8"))`) of each Markdown-rendered chunk
-  - Hard-caps chunk file sizes below the ingestion threshold before writing to disk
-
-#### 📝 Documentation / Process Refinement
-- Clarified full data handling workflow:
-  - Temporary workspace: `C:\VISTA_TEMP` (used to avoid OneDrive sync interference)
-  - Upload command: `gcloud storage rsync` for precise deployment to GCS ingestion bucket
-
-#### 🧯 Contingency Plan
-- If size-control script fails again, escalate to using a dedicated cloud-native ETL system (e.g., **Google Cloud Dataflow**) for pipeline control and scaling.
-
----
+- Diagnosed Vertex AI ingestion failures caused by `pandas.to_markdown()` inflating `.txt` sizes. Updated `definitive_chunker.py` to calculate encoded byte size and hard-cap output, including automatic `.xls` to `.xlsx` conversion via `pyexcel`.
+- Reorganized the repository: removed lingering submodule references, moved backend files into `src/vista-api-backend`, and added a `pylint.yml` CI workflow.
+- Updated `openapi_spec.yaml`, improved project documentation with new guides in `/docs`, and added licensing files under `/legal`.
+- Standardized the workflow using `C:\VISTA_TEMP` and `gcloud storage rsync` for clean uploads to Google Cloud Storage.
+- Established a contingency plan to migrate the pipeline to Google Cloud Dataflow if file-size issues persist.
 
 ### ⚠️ Challenges & Roadblocks
 
-#### 🔄 First Attempt Failure
-- Lowering `MAX_CHUNK_SIZE` in the original script was insufficient; multiple `.txt` files still exceeded 5MB in actual size.
-
-#### 🧩 Root Cause
-- Markdown rendering unpredictably increased file size.
-- The script’s estimation logic failed to account for text expansion caused by formatting characters and cell value length.
-
----
+- Repeated file rejections and runtime errors from misconfigured paths and missing dependencies.
+- Windows file move restrictions required command-line workarounds.
+- Persistent Git submodule artifacts after deletion.
 
 ### 🚀 Next Steps
 
-#### 🎯 Immediate Goal
-- Run full end-to-end execution of the chunking and conversion process using `definitive_chunker.py v2`.
-- Validate that all `.txt` outputs conform to Vertex AI's ingestion requirements (<2.5MB/file).
-
-#### 📡 Near-Term Target
-- After successful ingestion, initiate **retrieval augmentation (RAG)** testing within Vertex AI using newly processed data.
-
----
-
-#### 🧱 Repository Reorganization (Structural Refactor)
-- Defined a standardized repository layout where `veteran-analytics` serves as the parent project, and `vista-api-backend` is located under `src/`.
-- Created or confirmed presence of high-level folders:
-  - `src/`
-  - `docs/`
-  - `assets/`
-  - `legal/`
-- Created nested backend structure under `src/vista-api-backend`:
-  - `app/`
-  - `data/`
-  - `scripts/`
-  - `specs/`
-  - `docs/`
-  - `openapi_spec.yaml`, `Dockerfile`, `requirements.txt`
-
-#### 📁 Manual File Moves (CMD)
-- Encountered Windows-specific move restrictions (`Access is denied`)
-- Used `rmdir /s /q` to remove locked directories before successful relocation
-- Successfully moved:
-  - `app/` → `src/vista-api-backend/app/`
-  - `scripts/` → `src/vista-api-backend/scripts/`
-  - `specs/` → `src/vista-api-backend/specs/`
-  - `data/` → `src/vista-api-backend/data/`
-  - Top-level files (`Dockerfile`, `requirements.txt`, `openapi_spec.yaml`) to backend root
-
-#### 🔧 Git Operations
-- Resolved `git push` rejection due to remote divergence
-- Performed a clean `git pull`, managed in-terminal merge via Vim/Nano
-- Committed and pushed resolved merge: `Moved backend files into src/vista-api-backend`
-
-#### 📁 Markdown & Documentation
-- Added `[Gemini Gem Setup Guide](docs/vista_gem_codex.md)` and `[Daily Log Template](docs/daily_log_template.md)` to the main `README.md`
-- Created and organized `TRADEMARK.md`, `TERMS.md`, and `LICENSE` under `/legal`
-- Updated and committed `README.md` to reflect current architecture and project scope
-
----
-
-### 🚧 Outstanding Tasks / Follow-Up
-- Finish confirming all backend folders were fully migrated and no residual folders remain in root
-- Re-test Python app execution after refactor (`flask run` or entrypoint)
-- Validate all relative paths in `Dockerfile`, `requirements.txt`, and Python imports
-- Update OpenAPI spec paths if affected by move
-- Begin front-end or deployment layer planning (Cloud Run or App Engine)
-
----
+- Validate `definitive_chunker_v4.py` across all datasets and complete Vertex AI ingestion.
+- Confirm backend functionality after restructuring and plan deployment to Cloud Run or App Engine.
 
 ### 🔖 Notes
-- Editor for Git merge was likely Vim (resolved with `:wq`)
-- Repeated Git guidance helped build confidence in repo hygiene
-- Markdown links require raw content path (`raw.githubusercontent.com/...`) for Gemini ingestion
 
+- Vim was used to resolve a Git merge.
+- Markdown links must reference raw GitHub content for ingestion.
 
-## VISTA Project Log: 2025-06-15
-
+## 🗓️ Date: 2025-06-15
+**Developer:** Gillon Marchetti
+**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
 **Session Time:** 11:15 AM EDT
+**Environment:** Local Python venv, Windows Command Line
 
 ---
 
@@ -231,9 +127,11 @@
 * **Immediate Goal:** Run the `definitive_chunker.py` script from the `C:\VISTA_TEMP` directory to process all the source `.xls` files.
 * **Future Goal:** After the script successfully converts all files, copy the cleaned `.txt` files from the output folder back into the main `VISTA_Repository`, sync the repository with Google Cloud Storage, and trigger a `MANUAL SYNC` in Vertex AI to complete the data ingestion.
 
-## VISTA Project Log: 2025-06-14
-
+## 🗓️ Date: 2025-06-14
+**Developer:** Gillon Marchetti
+**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
 **Session Time:** 11:55 PM EDT
+**Environment:** Local Python venv, Windows Command Line
 
 ---
 
@@ -258,9 +156,11 @@
 * **Immediate Goal:** Transition from the temporary Cloudflare Tunnel to a permanent, stable URL for the API backend.
 * **Future Goal:** Deploy the Flask application to Google Cloud Run to provide a production-ready API endpoint, which will allow for further iteration on the VISTA Custom GPT's instructions and capabilities.
 
-## VISTA Project Log: 2025-06-13
-
+## 🗓️ Date: 2025-06-13
+**Developer:** Gillon Marchetti
+**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
 **Session Time:** 11:45 PM EDT
+**Environment:** Local Python venv, Windows Command Line
 
 ---
 
@@ -284,9 +184,11 @@
 * **Immediate Goal:** Refine the `sheets_reader.py` script to successfully load data from all worksheets by correctly handling the problematic headers.
 * **Future Goal:** Integrate the now-functional data-loading script into a Flask application to create the first API endpoints.
 
-## VISTA Project Log: 2025-06-12
-
+## 🗓️ Date: 2025-06-12
+**Developer:** Gillon Marchetti
+**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
 **Session Time:** 02:30 PM EDT
+**Environment:** Local Python venv, Windows Command Line
 
 ---
 
@@ -296,8 +198,6 @@
 * **Decision:** We established the core strategy of moving from static files to a dynamic, API-driven system. The plan is to build a Python backend using Flask that reads data from a Google Sheet and serves it to the VISTA Custom GPT via a custom API.
 * **Decision:** Agreed on a strategy to overcome the 30 `operationId` limit in Custom GPTs by designing generalized, parameterized API actions. The backend API would handle the complex logic of mapping these general calls to specific data sources listed in the Google Sheet.
 
----
-
 ### ⚠️ Challenges & Roadblocks
 
 * **Issue:** How to integrate VISTA with over 100 identified `data.va.gov` resources without violating the 30 `operationId` limit for GPT Actions.
@@ -305,33 +205,7 @@
 * **Issue:** Potential for hitting API rate limits from our data sources.
 * **Solution:** We proactively reviewed the specific API quotas for both the Google Sheets API and `data.va.gov` to ensure the architecture would be robust and to plan for future scaling.
 
----
-
 ### 🚀 Next Steps
 
 * **Immediate Goal:** Begin the practical, hands-on development by setting up the necessary Google Cloud Project and service account credentials for the Google Sheets API.
 * **Future Goal:** Write the initial Python script to programmatically connect to the Google Sheet and read the data, which would serve as the foundation for the Flask API.
-
-## VISTA Project Log: 2025-06-19
-
-**Session Time:** 12:15 PM EDT
-
----
-
-### ✅ Accomplishments & Key Decisions
-
-- **Objective 1:** Integrated Excel conversion and chunking into a unified pipeline.
-- **Decision:** All Excel files are converted to individual CSVs per worksheet, then chunked into markdown `.txt` files under 2MB. Intermediate CSVs are removed.
-- **Code Created/Modified:** `xls_to_csv_and_chunk.py` handles sheet detection, CSV export, chunking, and cleanup.
-- **Objective 2:** Established a master source index for veteran research material with a four-tier hierarchy prioritizing open federal sources such as M21-1, Title 38 CFR, VA Forms, VetPop, and BVA decisions.
-
-### ⚠️ Challenges & Roadblocks
-
-- Earlier scripts failed with multi-worksheet files and inconsistent chunk sizes. Rewrote the logic with sheet name sanitization and size checks.
-- Consolidating fragmented source data required a centralized retrieval strategy with metadata tagging.
-
-### 🚀 Next Steps
-
-- Run the new script on all historical Excel files in `C:\VISTA_TEMP\data\XLS_TO_PROCESS`.
-- Develop an automated pipeline to monitor new Excel files and prepare them for Vertex AI ingestion.
-- Begin ingestion and schema mapping of the curated veteran benefits and exposure data.
