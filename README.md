@@ -56,7 +56,18 @@ This project uses a modern, scalable technology stack:
 
 The primary component of this project is the **VISTA API Backend**. For detailed instructions on how to set up the development environment, run the data processing scripts, and launch the API, please see the dedicated README file:
 
+
 ➡️ **[VISTA API Backend README](https://www.google.com/search?q=src/vista-api-backend/README.md)**
+
+### 🧪 Running Tests
+
+Install the required packages using `requirements.txt` and run the automated
+tests with [pytest](https://docs.pytest.org/):
+
+```bash
+pip install -r requirements.txt pytest
+pytest
+```
 
 -----
 
