@@ -2169,7 +2169,7 @@ o	Open your web browser and try these URLs:
 	http://127.0.0.1:5000/query_api_paths?category=Demographics (Test querying the API Name and Path sheet)
 	http://127.0.0.1:5000/query_census_apis_full_list?dataset_name=cbp (Test querying the Census Full List sheet)
 Let me know the output when you run python app.py and what you see when you visit the URLs in your browser.
-Before we go to step 9, should I remain in the virutal environment? 
+Before we go to step 9, should I remain in the virtual environment?
 Yes, absolutely! You should remain in the virtual environment ((venv)) when you run python app.py for Step 9.
 Here's why:
 •	Dependency Isolation: Your Flask, gspread, pandas, and other libraries are installed specifically within that virtual environment. If you deactivate it, your system's global Python might not find those libraries, leading to import errors.
