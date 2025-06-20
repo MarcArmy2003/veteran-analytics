@@ -1,3 +1,50 @@
+## 🗓️ Date: 2025-06-20
+**Developer:** Gillon Marchetti
+**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+**Session Time:** 01:00 AM EDT
+**Environment:** Local Python venv, Cloudflare Tunnel, Google Cloud
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+- **Objective 1:** Successfully established a fully functional local Flask API backend that reliably loads and serves data from the "Open VA Data APIs" Google Sheet, handling complex headers and data structures.
+- **Decision:** Committed to using a local, non-synced directory (C:\\VISTA_TEMP) for script execution to bypass persistent OneDrive interference and environment pathing issues.
+- **Code Created/Modified:** `app.py` (Flask API backend), `openapi_spec.yaml` (OpenAPI specification).
+- **Objective 2:** Implemented a robust, automated data cleaning and conversion pipeline for RAG system ingestion.
+- **Decision:** Adopted a "deep chunking" strategy for `.xls` files, converting all sheets and rows into multiple smaller Markdown (`.txt`) files to circumvent Vertex AI size and format limitations.
+- **Code Created/Modified:** `convert_xls_files.py` (automates `.xls` to Markdown conversion and cleans up `Thumbs.db`, `.DS_Store`, and other temporary/unsupported files).
+- **Objective 3:** Successfully integrated the local Flask API with the VISTA Custom GPT and established foundational RAG capabilities in Google Cloud.
+- **Decision:** Leveraged Cloudflare Tunnel (`cloudflared.exe`) for secure public access to the local API, after `ngrok` was flagged as a security risk.
+- **Decision:** Chose Google Cloud Vertex AI Search for scalable RAG implementation, starting with a multi-region app and a data store for unstructured documents.
+- **Code Created/Modified:** `openapi_spec.yaml` updated with Cloudflare Tunnel URL.
+- **Objective 4:** Established professional project infrastructure.
+- **Decision:** Acquired and configured primary project domains (`veterananalytics.com`, `veteranintel.com`, `vistaadvocacy.com`) and a dedicated business email (`MarcArmy2003@veterananalytics.com`) for professional branding and communication.
+
+### ⚠️ Challenges & Roadblocks
+
+- **Issue:** Persistent `FileNotFoundError` and command recognition issues (`'python' not recognized`) in the terminal, even within an activated virtual environment.
+- **Solution:** Diagnosed as a conflict with Microsoft OneDrive syncing and the Microsoft Store's Python alias. Bypassed by performing operations from a simple, local directory (`C:\\VISTA_TEMP`) and explicitly calling Python executables with their absolute paths.
+- **Issue:** `gspread` library failing to parse Google Sheet headers (duplicate header, unexpected keyword argument `header`).
+- **Solution:** Iteratively debugged by re-installing libraries, recreating virtual environments, switching to title-based sheet opening, and eventually implementing manual header parsing within `app.py` based on observed DataFrame column names.
+- **Issue:** Flask API endpoints returning `KeyError` when attempting to filter data by column name.
+- **Solution:** Added debugging print statements to log actual DataFrame column names at runtime, then updated Flask API query functions (`query_api_paths`, `query_census_apis_full_list`) to use these precise column names.
+- **Issue:** `ngrok.exe` download flagged by Windows Defender as a Trojan.
+- **Solution:** Pivoted to Cloudflare Tunnel (`cloudflared.exe`) as a more secure alternative for creating a public tunnel to the local Flask API.
+- **Issue:** `cloudflared.exe` command not recognized in terminal, even when in the correct directory.
+- **Solution:** Identified a mismatch in the executable filename (`cloudflared.exe` vs. `cloudflared-windows-amd64.exe`) and persistent PATH issues. Resolved by specifying the exact full filename and absolute path during execution.
+- **Issue:** Vertex AI Search RAG data ingestion failing due to unsupported file types (`.db`, `.xls`, `.DS_Store`).
+- **Solution:** Developed the `convert_xls_files.py` script to automatically identify, convert (`.xls` to Markdown `.txt`), and delete these unsupported files from the local repository before syncing to Cloud Storage.
+
+### 🚀 Next Steps
+
+- **Immediate Goal:** Re-run the `convert_xls_files.py` script from `C:\\VISTA_TEMP` to ensure all `.xls` data has been properly chunked and converted into `.txt` Markdown files, and that all unsupported file types are removed from the local repository.
+- **Immediate Goal:** Upload the cleaned and converted `.txt` files from the local repository to the Google Cloud Storage bucket (`gs://vista-api-backend-rag-files`) using `gcloud storage cp --recursive`.
+- **Immediate Goal:** Trigger a MANUAL SYNC in the Vertex AI Search console for the `conversation-transcript-store` data store to ingest all newly uploaded documents.
+- **Immediate Goal:** Test the RAG system extensively with queries targeting both the conversation transcript and the newly indexed Annual Benefits Reports, focusing on fact retrieval, summarization, and comparative analysis.
+- **Future Goal:** Diagnose and fix the "header row contains duplicates" error in the Flask API when deployed to Google Cloud Run to ensure a stable, permanent URL for the backend.
+- **Future Goal:** Refine the VISTA Custom GPT's instructions to optimize its interaction with the deployed API and RAG system for more intuitive and powerful natural language responses.
+
 ## 🗓️ Date: 2025-06-16  
 **Developer:** Gillon Marchetti  
 **Project:** VISTA – Veteran Insights & Statistics Tool for Analysis  
