@@ -1,8 +1,5 @@
-## 🗓️ Date: 2025-06-20
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+## VISTA Project Log: 2025-06-20
 **Session Time:** 01:00 AM EDT
-**Environment:** Local Python venv, Cloudflare Tunnel, Google Cloud
 
 ---
 
@@ -45,11 +42,8 @@
 - **Future Goal:** Diagnose and fix the "header row contains duplicates" error in the Flask API when deployed to Google Cloud Run to ensure a stable, permanent URL for the backend.
 - **Future Goal:** Refine the VISTA Custom GPT's instructions to optimize its interaction with the deployed API and RAG system for more intuitive and powerful natural language responses.
 
-## 🗓️ Date: 2025-06-16  
-**Developer:** Gillon Marchetti  
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis  
-**Session Time:** 10:27 PM EDT → Close of day  
-**Environment:** Local Git CLI, GitHub UI, Windows Command Line
+## VISTA Project Log: 2025-06-16
+**Session Time:** 10:27 PM EDT → Close of day
 
 ---
 
@@ -100,14 +94,8 @@
   - Begin formal API endpoint testing
   - Commit finalized GitHub Actions CI/CD workflow (`pylint.yml`) and integrate automated checks into future pushes
 
-⸻
-
-## 🗓️ Date: 2025-06-16  
-**Developer:** Gillon Marchetti  
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis  
-**Session Time:** 12:05 AM EDT  
-**Environment:** Local Python venv, OneDrive, gcloud CLI, Google Cloud Storage  
-**File(s) Modified:** `definitive_chunker.py`  
+## VISTA Project Log: 2025-06-16
+**Session Time:** 12:05 AM EDT
 
 ---
 
