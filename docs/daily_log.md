@@ -264,3 +264,27 @@
 
 * **Immediate Goal:** Begin the practical, hands-on development by setting up the necessary Google Cloud Project and service account credentials for the Google Sheets API.
 * **Future Goal:** Write the initial Python script to programmatically connect to the Google Sheet and read the data, which would serve as the foundation for the Flask API.
+
+## VISTA Project Log: 2025-06-19
+
+**Session Time:** 12:15 PM EDT
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+- **Objective 1:** Integrated Excel conversion and chunking into a unified pipeline.
+- **Decision:** All Excel files are converted to individual CSVs per worksheet, then chunked into markdown `.txt` files under 2MB. Intermediate CSVs are removed.
+- **Code Created/Modified:** `xls_to_csv_and_chunk.py` handles sheet detection, CSV export, chunking, and cleanup.
+- **Objective 2:** Established a master source index for veteran research material with a four-tier hierarchy prioritizing open federal sources such as M21-1, Title 38 CFR, VA Forms, VetPop, and BVA decisions.
+
+### ⚠️ Challenges & Roadblocks
+
+- Earlier scripts failed with multi-worksheet files and inconsistent chunk sizes. Rewrote the logic with sheet name sanitization and size checks.
+- Consolidating fragmented source data required a centralized retrieval strategy with metadata tagging.
+
+### 🚀 Next Steps
+
+- Run the new script on all historical Excel files in `C:\VISTA_TEMP\data\XLS_TO_PROCESS`.
+- Develop an automated pipeline to monitor new Excel files and prepare them for Vertex AI ingestion.
+- Begin ingestion and schema mapping of the curated veteran benefits and exposure data.
