@@ -1,4 +1,4 @@
-## VISTA Project Log: 2025-06-20
+## 🗓️ Date: 2025-06-20
 **Session Time:** 01:00 AM EDT
 
 ---
@@ -66,37 +66,18 @@
 
 ### 🚀 Next Steps
 
-=======
-
 ## 🗓️ Date: 2025-06-16
 **Developer:** Gillon Marchetti
 **Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
 **Session Time:** 12:05 AM–10:27 PM EDT
 **Environment:** Local Python venv, Git CLI, GitHub UI, OneDrive, gcloud CLI, Google Cloud Storage, Windows Command Line
 
-- **Immediate Task:** Validate that `definitive_chunker_v4.py` completes successfully and produces sub-2.5MB `.txt` outputs across all datasets.
-- **Ingestion Finalization:**
-  - Purge previous ingest attempts from GCS (`vista-api-backend-rag-files`)
-  - Deploy new data using `gcloud storage rsync`
-  - Trigger the ingestion pipeline within Vertex AI for final verification
-- **Post-Ingestion Tasks:**
-  - Confirm file visibility, completeness, and integrity within Vertex AI's retrieval system
-  - Begin formal API endpoint testing
-  - Commit finalized GitHub Actions CI/CD workflow (`pylint.yml`) and integrate automated checks into future pushes
-=======
-
-## VISTA Project Log: 2025-06-16
-**Session Time:** 12:05 AM EDT
-
-
----
-
 ### ✅ Accomplishments & Key Decisions
 
 - Diagnosed Vertex AI ingestion failures caused by `pandas.to_markdown()` inflating `.txt` sizes. Updated `definitive_chunker.py` to calculate encoded byte size and hard-cap output, including automatic `.xls` to `.xlsx` conversion via `pyexcel`.
 - Reorganized the repository: removed lingering submodule references, moved backend files into `src/vista-api-backend`, and added a `pylint.yml` CI workflow.
 - Updated `openapi_spec.yaml`, improved project documentation with new guides in `/docs`, and added licensing files under `/legal`.
-- Standardized the workflow using `C:\VISTA_TEMP` and `gcloud storage rsync` for clean uploads to Google Cloud Storage.
+- Standardized the workflow using `C:\\VISTA_TEMP` and `gcloud storage rsync` for clean uploads to Google Cloud Storage.
 - Established a contingency plan to migrate the pipeline to Google Cloud Dataflow if file-size issues persist.
 
 ### ⚠️ Challenges & Roadblocks
@@ -107,13 +88,17 @@
 
 ### 🚀 Next Steps
 
-- Validate `definitive_chunker_v4.py` across all datasets and complete Vertex AI ingestion.
-- Confirm backend functionality after restructuring and plan deployment to Cloud Run or App Engine.
+- Validate `definitive_chunker_v4.py` across all datasets to produce sub-2.5MB `.txt` outputs and complete Vertex AI ingestion.
+- Purge previous ingest attempts from GCS (`vista-api-backend-rag-files`) and deploy new data using `gcloud storage rsync`, then trigger the ingestion pipeline within Vertex AI for final verification.
+- Confirm file visibility, completeness, and integrity within Vertex AI's retrieval system.
+- Begin formal API endpoint testing and confirm backend functionality after restructuring; plan deployment to Cloud Run or App Engine.
+- Commit finalized GitHub Actions CI/CD workflow (`pylint.yml`) and integrate automated checks into future pushes.
 
 ### 🔖 Notes
 
 - Vim was used to resolve a Git merge.
 - Markdown links must reference raw GitHub content for ingestion.
+
 
 ## 🗓️ Date: 2025-06-15
 **Developer:** Gillon Marchetti
