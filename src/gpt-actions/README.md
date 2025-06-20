@@ -2,9 +2,10 @@
 
 This folder contains OpenAPI specifications and schema files for GPT-based actions that support the Veteran Analytics platform.
 
-## Contents:
-<
-- `README.md`: Folder index and overview
+
+## Contents
+
+
 
 
 
