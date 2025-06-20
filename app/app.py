@@ -113,13 +113,23 @@ def query_api_paths():
 
     df_api_paths = data["API Name and Path"]
     category = request.args.get('category')
-    
-    # If no 'category' parameter is provided, return all records.
-    if not category:
-        return jsonify(df_api_paths.to_dict(orient='records'))
+    api_name = request.args.get('api_name')
 
-    # Filter the DataFrame based on the 'Categorization' column.
-    results = df_api_paths[df_api_paths['Categorization'].str.contains(category, case=False, na=False)]
-    
-    # Return the filtered results as a JSON array.
+    results = df_api_paths
+
+    if category:
+        if 'Categorization' not in results.columns:
+            return jsonify({"error": "Column 'Categorization' not found in sheet."}), 500
+        results = results[results['Categorization'].str.contains(category, case=False, na=False)]
+
+    if api_name:
+        api_col = None
+        for candidate in ["Dataset / Table Name", "API Name"]:
+            if candidate in results.columns:
+                api_col = candidate
+                break
+        if not api_col:
+            return jsonify({"error": "API name column not found in sheet."}), 500
+        results = results[results[api_col].astype(str).str.contains(api_name, case=False, na=False)]
+
     return jsonify(results.to_dict(orient='records'))
