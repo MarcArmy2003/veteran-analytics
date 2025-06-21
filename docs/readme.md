@@ -56,7 +56,7 @@ This project uses a modern, scalable technology stack:
 
 The primary component of this project is the **VISTA API Backend**. For detailed instructions on how to set up the development environment, run the data processing scripts, and launch the API, please see the dedicated README file:
 
-➡️ **[VISTA API Backend README](https://www.google.com/search?q=src/vista-api-backend/README.md)**
+➡️ **[VISTA API Backend README](../src/vista-api-backend/README.md)**
 
 -----
 
@@ -64,12 +64,12 @@ The primary component of this project is the **VISTA API Backend**. For detailed
 
 For a deeper dive into the project's architecture, goals, and technical implementation, please refer to our documentation.
 
-  * **[Project Overview](https://www.google.com/search?q=docs/project-overview.md)**: A high-level summary of the project.
-  * **[VISTA Codex (Knowledge Base)](https://www.google.com/search?q=docs/vista_gem_codex.md)**: The technical specifications and project memory for the VISTA system.
+  * **[Project Overview](project-overview.md)**: A high-level summary of the project.
+  * **[VISTA Codex (Knowledge Base)](vista_gem_codex.md)**: The technical specifications and project memory for the VISTA system.
 
 -----
 
 ### ⚖️ Legal
 
-  * **[Terms of Use](https://www.google.com/search?q=legal/TERMS.md)**
-  * **[Trademark Policy](https://www.google.com/search?q=legal/TRADEMARK.md)**
+  * **[Terms of Use](../legal/TERMS.md)**
+  * **[Trademark Policy](../legal/TRADEMARK.md)**
