@@ -69,6 +69,13 @@ pip install -r requirements.txt pytest
 pytest
 ```
 
+### Configuration
+
+The API's public URL is exposed through a Cloudflare Tunnel. This URL changes
+whenever you start a new tunnel. Set the `API_BASE_URL` environment variable (or
+edit `.env`) to your current Cloudflare URL and update `openapi_spec.yaml`
+accordingly whenever a new tunnel is created.
+
 -----
 
 ### 📖 Documentation
