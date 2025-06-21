@@ -3,20 +3,40 @@ import shutil
 import hashlib
 from pathlib import Path
 
-# --- Configuration for Helper Script (Paths derived directly from your input) ---
-# These paths point to your original, local OneDrive directories.
-ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR = Path(r"C:\Users\gillo\OneDrive\Documents\ChatGPT Instructions")
-ONEDRIVE_VISTA_API_BACKEND_DIR = ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR / "VISTA API Backend"
-ONEDRIVE_XLS_TO_PROCESS_DIR = ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR / "XLS_TO_PROCESS"
-ONEDRIVE_VETERAN_ANALYTICS_BACKUP_DIR = Path(r"C:\Users\gillo\OneDrive\Documents\veteran-analytics - backup")
-ONEDRIVE_VETERAN_ANALYTICS_DIR = Path(r"C:\Users\gillo\OneDrive\Documents\veteran-analytics")
+from config_loader import get_path
 
-# This is your NEW, clean working directory where the GitHub repo is cloned.
-# This should be the directory you created previously (e.g., C:\VISTA_Project).
-NEW_VISTA_PROJECT_ROOT = Path(r"C:\VISTA_Project")
+# --- Path Configuration ---
+# Paths can be supplied via environment variables or a YAML config file.
+ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR = get_path(
+    "ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR",
+    r"C:\Users\gillo\OneDrive\Documents\ChatGPT Instructions",
+)
+ONEDRIVE_VISTA_API_BACKEND_DIR = get_path(
+    "ONEDRIVE_VISTA_API_BACKEND_DIR",
+    str(Path(r"C:\Users\gillo\OneDrive\Documents\ChatGPT Instructions") / "VISTA API Backend"),
+)
+ONEDRIVE_XLS_TO_PROCESS_DIR = get_path(
+    "ONEDRIVE_XLS_TO_PROCESS_DIR",
+    str(Path(r"C:\Users\gillo\OneDrive\Documents\ChatGPT Instructions") / "XLS_TO_PROCESS"),
+)
+ONEDRIVE_VETERAN_ANALYTICS_BACKUP_DIR = get_path(
+    "ONEDRIVE_VETERAN_ANALYTICS_BACKUP_DIR",
+    r"C:\Users\gillo\OneDrive\Documents\veteran-analytics - backup",
+)
+ONEDRIVE_VETERAN_ANALYTICS_DIR = get_path(
+    "ONEDRIVE_VETERAN_ANALYTICS_DIR",
+    r"C:\Users\gillo\OneDrive\Documents\veteran-analytics",
+)
 
-# This is the LOCAL archive destination for large source files.
-LOCAL_ARCHIVE_DESTINATION_DIR = Path(r"D:\VISTA_Data_Archive")
+NEW_VISTA_PROJECT_ROOT = get_path(
+    "NEW_VISTA_PROJECT_ROOT",
+    r"C:\VISTA_Project",
+)
+
+LOCAL_ARCHIVE_DESTINATION_DIR = get_path(
+    "LOCAL_ARCHIVE_DESTINATION_DIR",
+    r"D:\VISTA_Data_Archive",
+)
 
 # --- Helper Functions ---
 

@@ -233,4 +233,3 @@
 
 * **Immediate Goal:** Begin the practical, hands-on development by setting up the necessary Google Cloud Project and service account credentials for the Google Sheets API.
 * **Future Goal:** Write the initial Python script to programmatically connect to the Google Sheet and read the data, which would serve as the foundation for the Flask API.
-

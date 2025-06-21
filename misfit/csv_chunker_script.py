@@ -4,9 +4,11 @@ import glob
 import re
 import time
 
+from config_loader import get_path
+
 # --- CONFIGURATION ---
-CSV_INPUT_FOLDER = r"C:\VISTA_TEMP\data\XLS_TO_PROCESS\CSV_Output"
-MARKDOWN_OUTPUT_FOLDER = r"C:\VISTA_Repository\ABR Excel Table Markdowns"
+CSV_INPUT_FOLDER = str(get_path("CSV_INPUT_FOLDER", r"C:\VISTA_TEMP\data\XLS_TO_PROCESS\CSV_Output"))
+MARKDOWN_OUTPUT_FOLDER = str(get_path("MARKDOWN_OUTPUT_FOLDER", r"C:\VISTA_Repository\ABR Excel Table Markdowns"))
 MAX_BYTES = 2000000  # 2MB to be safe
 
 def process_and_chunk_csv(input_folder, output_folder):

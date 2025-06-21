@@ -6,6 +6,9 @@ info:
 servers:
   # This is the public URL that Cloudflare Tunnel provided.
   # KEEP BOTH YOUR FLASK APP AND CLOUDFLARE TUNNEL TERMINALS OPEN AND RUNNING.
+  # NOTE: This trycloudflare.com URL is temporary and will change each time you
+  # start a new tunnel. Update this value whenever you create a new Cloudflare
+  # tunnel.
   - url: https://letter-mario-lexington-sunny.trycloudflare.com
     description: Public URL via Cloudflare Tunnel
 paths:

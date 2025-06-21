@@ -1,6 +1,12 @@
-
 # Google Cloud Service Account Keys
 misfit/vista-api-backend-6578a1a1c769.json
 specs/vista-api-backend-6578a1a1c769.json
-specs/vista-api-backend-6578a1a1c769.json
-misfit/vista-api-backend-6578a1a1c769.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyd
+*.so
+*.dll
+*.lib
+
