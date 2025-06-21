@@ -27,14 +27,26 @@ This repository is a monorepo containing all the code, documentation, and assets
 
 ```plaintext
 veteran-analytics/
-├── src/                  # All source code, including the API and data loaders
-│   ├── vista-api-backend/  # The core Flask API and processing engine
-│   └── ...
-├── docs/                 # Detailed documentation, architectural decisions, and guides
-├── assets/               # Shared assets like logos and style guides
-├── legal/                # Terms of use and trademark information
-├── .gitignore            # Git ignore rules for the entire project
-└── README.md             # This file
+├── .github/                    # GitHub configuration and automation
+│   └── workflows/              # GitHub Actions CI/CD workflows
+├── app/                        # Core application logic (e.g., UI, API, or service layer)
+├── config/                     # Project-level settings and environment configuration
+├── src/                        # Source code modules for data processing and GPT tooling
+│   ├── data-loaders/           # Ingestion, transformation, and preprocessing routines
+│   ├── gpt-actions/            # Prompt routing and GPT interaction logic
+├── docs/                       # Technical documentation, internal SOPs, and architecture records
+├── data/                       # Structured reference datasets used in development or testing
+├── assets/                     # Visual and brand assets used across the project
+│   ├── images/                 # Graphics, diagrams, and screenshots
+│   ├── logos/                  # Official logos for presentations and docs
+├── scripts/                    # Utility scripts for data processing, transformation, and repository maintenance
+│   └── Metlakatla/             # Specialized or legacy subroutines (nested folder)
+├── specs/                      # API specifications, table schemas, and legacy C API interfaces
+│   └── Apia/                   # Subfolder for schema-related or experimental specifications
+├── tools/                      # Standalone utilities and Git tooling not part of core source
+├── legal/                      # Licensing, terms of use, and compliance documentation
+├── .gitignore                  # Git exclusion rules for build, system, and binary files
+└── README.md                   # This file – project overview and contributor instructions
 ```
 
 -----
