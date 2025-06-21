@@ -437,7 +437,7 @@ import pandas as pd
 
 # --- Configuration ---
 # Your actual service account key file name, provided from the uploaded JSON.
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json' # 
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json' # 
 
 # The ID of your Google Sheet. Confirmed from your previous input.
 SPREADSHEET_ID = '1qunnlNs7k_Z6XstLyplt3ytPvp5V_UH8DYspe_VLOeA'
@@ -506,12 +506,12 @@ if __name__ == "__main__":
         print("\nFailed to load any data from Google Sheets.")
 
 Important Notes:
-•	Service Account Key File: Ensure the JSON file named vista-api-backend-6578a1a1c769.json is located in the same directory as your sheets_reader.py file.
+•	Service Account Key File: Ensure the JSON file named service-account.json is located in the same directory as your sheets_reader.py file.
 •	Worksheet Names: I've used the exact names you provided: "API Name and Path", "VA Data Census Bureau APIs", "Census Bureau APIs - Full List", "VISTA Custom GPT Actions", and "Utilities". Double-check that these exactly match the tab names in your Google Sheet (case-sensitive).
 •	"Utilities" Worksheet: As you noted, the "Utilities" worksheet might not contain API endpoints but rather links to documentation. The current code will still read its content into a DataFrame, which is good. We'll address how to process that kind of content (e.g., extracting URLs for PDF documentation) in a later step when we integrate it with your Flask application or GPT instructions.
 Next Step:
 1.	Save this revised code as sheets_reader.py in your project directory.
-2.	Ensure the vista-api-backend-6578a1a1c769.json file is in the same directory.
+2.	Ensure the service-account.json file is in the same directory.
 3.	Run the script from your activated virtual environment in the terminal: 
 Bash
 python sheets_reader.py
@@ -531,7 +531,7 @@ import pandas as pd
 from google.oauth2.service_account import Credentials # <--- NEW IMPORT
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_ID = '1qunnlNs7k_Z6XstLyplt3ytPvp5V_UH8DYspe_VLOeA'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -628,7 +628,7 @@ import pandas as pd
 # No need for: from google.oauth2.service_account import Credentials # Removed
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_ID = '1qunnlNs7k_Z6XstLyplt3ytPvp5V_UH8DYspe_VLOeA'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -971,7 +971,7 @@ Step 6: Try Opening by Spreadsheet Title Instead of ID
 o	Change SPREADSHEET_ID to SPREADSHEET_TITLE: You'll need the exact title of your Google Sheet. Based on our previous conversation, it's likely "Open VA Data APIs" or something similar. Please check the actual title in your browser tab when you open the sheet. I'll use "Open VA Data APIs" as a placeholder, but you must replace this if your sheet has a different exact title.
 Python
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 
 # IMPORTANT: Replace 'Open VA Data APIs' with the EXACT title of your Google Sheet.
 # This title is visible in the browser tab when you open the sheet.
@@ -1026,7 +1026,7 @@ import pandas as pd
 # No need for: from google.oauth2.service_account import Credentials # Removed 
 
 # --- Configuration --- 
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json' 
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json' 
 SPREADSHEET_ID = '1qunnlNs7k_Z6XstLyplt3ytPvp5V_UH8DYspe_VLOeA' 
 WORKSHEET_NAMES = [ 
     "API Name and Path", 
@@ -1098,7 +1098,7 @@ Please make the following two specific changes to the code you just posted:
 1.	Change SPREADSHEET_ID to SPREADSHEET_TITLE and set its value to 'Open VA Data APIs':
 Python
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 
 # IMPORTANT: Use the EXACT title of your Google Sheet.
 # Based on the CSVs you provided, the title is "Open VA Data APIs".
@@ -1127,7 +1127,7 @@ import gspread
 import pandas as pd
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 
 # IMPORTANT: Using the EXACT title of your Google Sheet.
 # Based on the CSVs you provided, the title is "Open VA Data APIs".
@@ -1300,7 +1300,7 @@ import gspread
 import pandas as pd
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -1389,7 +1389,7 @@ import gspread
 import pandas as pd
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 
 # IMPORTANT: Using the EXACT title of your Google Sheet.
 # Based on the CSVs you provided, the title is "Open VA Data APIs".
@@ -1553,7 +1553,7 @@ import gspread
 import pandas as pd
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -1636,7 +1636,7 @@ import gspread
 import pandas as pd
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 
 # IMPORTANT: Using the EXACT title of your Google Sheet.
 # Based on the CSVs you provided, the title is "Open VA Data APIs".
@@ -1769,7 +1769,7 @@ import gspread
 import pandas as pd
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -2004,7 +2004,7 @@ import os
 
 # --- Configuration (Copied from sheets_reader.py) ---
 # Ensure this path is correct relative to where app.py is run, or an absolute path
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -2196,7 +2196,7 @@ import os
 
 # --- Configuration (Copied from sheets_reader.py) ---
 # Ensure this path is correct relative to where app.py is run, or an absolute path
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -2407,7 +2407,7 @@ import os
 
 # --- Configuration (Copied from sheets_reader.py) ---
 # Ensure this path is correct relative to where app.py is run, or an absolute path
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -2919,7 +2919,7 @@ import pandas as pd
 import os
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -3118,7 +3118,7 @@ import pandas as pd
 import os
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -3827,7 +3827,7 @@ import pandas as pd
 import os
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
@@ -5447,8 +5447,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # The service account key file is crucial. Ensure it's copied.
-# Replace 'vista-api-backend-6578a1a1c769.json' with your exact key filename.
-COPY vista-api-backend-6578a1a1c769.json .
+# Replace 'service-account.json' with your exact key filename.
+COPY service-account.json .
 
 # Ensure Flask listens on all interfaces (0.0.0.0) as required by Cloud Run
 ENV FLASK_RUN_HOST="0.0.0.0"
@@ -5460,7 +5460,7 @@ CMD exec gunicorn --bind :$FLASK_RUN_PORT --workers 1 --threads 8 --timeout 0 ap
 o	Important: 
 	FROM python:3.11-slim-buster: This specifies the base Python image. 3.11 is a good, stable version.
 	COPY . .: This copies all files from your current directory (including app.py) into the /app directory inside the Docker container.
-	COPY vista-api-backend-6578a1a1c769.json .: This line is crucial! Make sure vista-api-backend-6578a1a1c769.json is the exact filename of your service account key. This copies your key directly into the container.
+	COPY service-account.json .: This line is crucial! Make sure service-account.json is the exact filename of your service account key. This copies your key directly into the container.
 	ENV FLASK_RUN_PORT="8080": Cloud Run expects your application to listen on port 8080.
 	CMD exec gunicorn ... app:app: We're using gunicorn, a production-ready WSGI HTTP server, to run your Flask app. This is much more robust than Flask's built-in development server. 
 	You'll need to add gunicorn to your requirements.txt manually or via pip install gunicorn in your venv, then pip freeze > requirements.txt again.
@@ -5499,8 +5499,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # The service account key file is crucial. Ensure it's copied.
-# Replace 'vista-api-backend-6578a1a1c769.json' with your exact key filename.
-COPY vista-api-backend-6578a1a1c769.json .
+# Replace 'service-account.json' with your exact key filename.
+COPY service-account.json .
 
 # Ensure Flask listens on all interfaces (0.0.0.0) as required by Cloud Run
 ENV FLASK_RUN_HOST="0.0.0.0"
