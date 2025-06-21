@@ -16,7 +16,7 @@ The **VISTA (Veteran Insights & Statistics Tool for Analysis)** project aims to 
 
   * **Automated Data Processing**: Scripts that automatically clean, chunk, and structure raw government data (Excel, CSV) into formats ready for AI analysis.
   * **AI-Powered Knowledge Base**: Integration with **Google Cloud's Vertex AI** to create a powerful, searchable repository of veteran-related information.
-  * **Scalable API Backend**: A **Flask**-based API (see `src/vista-api-backend`) to serve the processed data, enabling the creation of web applications and other tools.
+  * **Modular GPT & Data Framework: All backend logic is organized under `src/`, with dedicated modules for ingestion (`data-loaders/`) and GPT prompt handling (`gpt-actions/`). Flask-based APIs and services, if reintroduced, will reside under `app/` for clarity and scalability.
   * **Cloud-Native Architecture**: Designed from the ground up to run on **Google Cloud Platform**, utilizing services like Cloud Run for deployment and Cloud Storage for data management.
 
 -----
