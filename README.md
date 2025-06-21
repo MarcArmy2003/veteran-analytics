@@ -102,7 +102,6 @@ export NEW_VISTA_PROJECT_ROOT=/projects/vista
 
 If no values are provided, the scripts fall back to their original Windows
 paths.
-=======
 The API's public URL is exposed through a Cloudflare Tunnel. This URL changes
 whenever you start a new tunnel. Set the `API_BASE_URL` environment variable (or
 edit `.env`) to your current Cloudflare URL and update `openapi_spec.yaml`
