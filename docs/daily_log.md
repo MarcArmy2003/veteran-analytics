@@ -215,7 +215,7 @@
 ### ✅ Accomplishments & Key Decisions
 
 - **Objective 1:** Successfully executed the preliminary automated file organization. Approximately 5700 files were copied and categorized from OneDrive sources into the new `C:\veteran-analytics` Git repository.
-- **Objective 2:** Diagnosed and resolved a critical GitHub Push Protection error (GH013) caused by accidentally committed Google Cloud Service Account credentials (`vista-api-backend-6578a1a1c769.json`).
+- **Objective 2:** Diagnosed and resolved a critical GitHub Push Protection error (GH013) caused by accidentally committed Google Cloud Service Account credentials.
 - **Objective 3:** Removed the sensitive credential file from Git history and added its specific paths (`misfit/vista-api-backend-6578a1a1c769.json`, `specs/vista-api-backend-6578a1a1c769.json`) to `.gitignore` to prevent future accidental commits.
 - **Decision:** Renamed the local project root folder from `C:\VISTA_Project` to `C:\veteran-analytics` for consistency with the GitHub repository. This directory is now the definitive source for all project files.
 - **Decision:** Opted not to proceed with automated versioning/renaming of conflicting files, completing the file organization phase after the initial copy.
