@@ -40,7 +40,7 @@ veteran-analytics/
 │   ├── images/                 # Graphics, diagrams, and screenshots
 │   ├── logos/                  # Official logos for presentations and docs
 ├── scripts/                    # Utility scripts for data processing, transformation, and repository maintenance
-│   └── Metlakatla/             # Specialized or legacy subroutines (nested folder)
+│   └── Metlakatla              # Compiled timezone data file
 ├── specs/                      # API specifications, table schemas, and legacy C API interfaces
 │   └── Apia/                   # Subfolder for schema-related or experimental specifications
 ├── legal/                      # Licensing, terms of use, and compliance documentation
