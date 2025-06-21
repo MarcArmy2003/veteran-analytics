@@ -69,6 +69,31 @@ pip install -r requirements.txt pytest
 pytest
 ```
 
+### Configuration
+
+Several helper scripts rely on file system paths. These paths can be set using
+environment variables or a `config.yml` file in the project root. Each script
+looks for environment variables first and falls back to the YAML configuration.
+An example configuration file looks like:
+
+```yaml
+paths:
+  ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR: /path/to/ChatGPT Instructions
+  ONEDRIVE_VISTA_API_BACKEND_DIR: /path/to/ChatGPT Instructions/VISTA API Backend
+  NEW_VISTA_PROJECT_ROOT: /path/to/VISTA_Project
+  MARKDOWN_OUTPUT_FOLDER: /path/to/ABR Excel Table Markdowns
+```
+
+You can also set these variables directly in your shell before running any
+script, for example:
+
+```bash
+export NEW_VISTA_PROJECT_ROOT=/projects/vista
+```
+
+If no values are provided, the scripts fall back to their original Windows
+paths.
+
 -----
 
 ### 📖 Documentation
