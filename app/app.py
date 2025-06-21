@@ -37,7 +37,7 @@ def get_data():
     try:
         # --- Configuration for Google Sheets ---
         # Service account key file for authentication.
-        key_file = 'vista-api-backend-6578a1a1c769.json'
+        key_file = 'service-account.json'
         # The exact title of the Google Sheet to open.
         spreadsheet_title = 'Open VA Data APIs'
         # A list of specific worksheets to load from the spreadsheet.

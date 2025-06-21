@@ -4,10 +4,13 @@ import glob
 import re
 import time
 
+from config_loader import get_path
+
 # --- CONFIGURATION ---
-XLS_INPUT_FOLDER = r"C:\VISTA_TEMP\data\XLS_TO_PROCESS"
+XLS_INPUT_FOLDER = str(get_path("XLS_INPUT_FOLDER", r"C:\VISTA_TEMP\data\XLS_TO_PROCESS"))
 CSV_OUTPUT_FOLDER = os.path.join(XLS_INPUT_FOLDER, "CSV_Output")
-MARKDOWN_OUTPUT_FOLDER = r"C:\VISTA_Repository\ABR Excel Table Markdowns"
+CSV_INPUT_FOLDER = CSV_OUTPUT_FOLDER  # for symmetry with other scripts
+MARKDOWN_OUTPUT_FOLDER = str(get_path("MARKDOWN_OUTPUT_FOLDER", r"C:\VISTA_Repository\ABR Excel Table Markdowns"))
 MAX_BYTES = 2000000  # 2MB
 
 # --- STEP 1: XLS/XLSX to Multi-sheet CSV Conversion ---

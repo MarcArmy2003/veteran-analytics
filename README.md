@@ -57,7 +57,7 @@ This project uses a modern, scalable technology stack:
 The primary component of this project is the **VISTA API Backend**. For detailed instructions on how to set up the development environment, run the data processing scripts, and launch the API, please see the dedicated README file:
 
 
-➡️ **[VISTA API Backend README](https://www.google.com/search?q=src/vista-api-backend/README.md)**
+➡️ **[VISTA API Backend README](src/vista-api-backend/README.md)**
 
 ### 🧪 Running Tests
 
@@ -69,19 +69,47 @@ pip install -r requirements.txt pytest
 pytest
 ```
 
+### Configuration
+
+
+
+```yaml
+paths:
+  ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR: /path/to/ChatGPT Instructions
+  ONEDRIVE_VISTA_API_BACKEND_DIR: /path/to/ChatGPT Instructions/VISTA API Backend
+  NEW_VISTA_PROJECT_ROOT: /path/to/VISTA_Project
+  MARKDOWN_OUTPUT_FOLDER: /path/to/ABR Excel Table Markdowns
+```
+
+You can also set these variables directly in your shell before running any
+script, for example:
+
+```bash
+export NEW_VISTA_PROJECT_ROOT=/projects/vista
+```
+
+If no values are provided, the scripts fall back to their original Windows
+paths.
+=======
+The API's public URL is exposed through a Cloudflare Tunnel. This URL changes
+whenever you start a new tunnel. Set the `API_BASE_URL` environment variable (or
+edit `.env`) to your current Cloudflare URL and update `openapi_spec.yaml`
+accordingly whenever a new tunnel is created.
+
+
 -----
 
 ### 📖 Documentation
 
 For a deeper dive into the project's architecture, goals, and technical implementation, please refer to our documentation.
 
-  * **[Project Overview](https://www.google.com/search?q=docs/project-overview.md)**: A high-level summary of the project.
-  * **[VISTA Codex (Knowledge Base)](https://www.google.com/search?q=docs/vista_gem_codex.md)**: The technical specifications and project memory for the VISTA system.
+  * **[Project Overview](docs/project-overview.md)**: A high-level summary of the project.
+  * **[VISTA Codex (Knowledge Base)](docs/vista_gem_codex.md)**: The technical specifications and project memory for the VISTA system.
 
 ---
 ### 📘 DAILY LOG – VISTA DEVELOPMENT
 
-➡️ [Click here for the full daily development log](https://github.com/MarcArmy2003/veteran-analytics/blob/main/docs/daily_log.md)
+➡️ [Click here for the full daily development log](docs/daily_log.md)
 
 Includes detailed progress tracking, session notes, environment changes, file migrations, and system debugging activities.
 
@@ -89,5 +117,5 @@ Includes detailed progress tracking, session notes, environment changes, file mi
 
 ### ⚖️ Legal
 
-  * **[Terms of Use](https://www.google.com/search?q=legal/TERMS.md)**
-  * **[Trademark Policy](https://www.google.com/search?q=legal/TRADEMARK.md)**
+  * **[Terms of Use](legal/TERMS.md)**
+  * **[Trademark Policy](legal/TRADEMARK.md)**
