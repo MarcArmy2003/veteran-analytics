@@ -206,3 +206,31 @@
 
 * **Immediate Goal:** Begin the practical, hands-on development by setting up the necessary Google Cloud Project and service account credentials for the Google Sheets API.
 * **Future Goal:** Write the initial Python script to programmatically connect to the Google Sheet and read the data, which would serve as the foundation for the Flask API.
+
+## 🗓️ Date: 2025-06-21
+**Session Time:** 3:45 AM EDT
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+- **Objective 1:** Successfully executed the preliminary automated file organization. Approximately 5700 files were copied and categorized from OneDrive sources into the new `C:\veteran-analytics` Git repository.
+- **Objective 2:** Diagnosed and resolved a critical GitHub Push Protection error (GH013) caused by accidentally committed Google Cloud Service Account credentials (`vista-api-backend-6578a1a1c769.json`).
+- **Objective 3:** Removed the sensitive credential file from Git history and added its specific paths (`misfit/vista-api-backend-6578a1a1c769.json`, `specs/vista-api-backend-6578a1a1c769.json`) to `.gitignore` to prevent future accidental commits.
+- **Decision:** Renamed the local project root folder from `C:\VISTA_Project` to `C:\veteran-analytics` for consistency with the GitHub repository. This directory is now the definitive source for all project files.
+- **Decision:** Opted not to proceed with automated versioning/renaming of conflicting files, completing the file organization phase after the initial copy.
+- **Code Created/Modified:** Updated `organize_project.py` to correctly import `file_helpers.py` functions, added a `confirm_all` parameter and an optional combined execution path, and refined `file_helpers.py` path handling.
+
+### ⚠️ Challenges & Roadblocks
+
+- **Issue:** Persistent `FileNotFoundError` when running `organize_project.py` due to incorrect file locations and import errors.
+- **Solution:** Saved both scripts in `C:\VISTA_Project` and revised import statements for direct, robust access to helper functions.
+- **Issue:** `git push` rejected by GitHub Push Protection detecting the credential file.
+- **Solution:** Removed the file with `git rm --cached`, added the paths to `.gitignore` via PowerShell, amended the commit to scrub history, and pushed with `--force-with-lease`.
+- **Issue:** Could not access `C:\veteran-analytics` via File Explorer for `.gitignore` edits.
+- **Solution:** Modified `.gitignore` directly from PowerShell and verified the folder with `Get-ChildItem`.
+
+### 🚀 Next Steps
+
+- **Immediate Goal:** File organization phase marked complete.
+- **Future Goal:** Determine next steps, potentially building a scalable data ingestion solution on Google Cloud, formalizing legal paperwork, and setting up placeholder websites.
