@@ -1,0 +1,6002 @@
+[
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2086057"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1680566"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "405490"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "4266"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "21209"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "215813"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1474003"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "4130"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "136"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "1029"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "18673"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "2399"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "29588"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "181225"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "19509"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "5233"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "7310"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "374874"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "440685"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "253091"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "748174"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "16180913"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "12739739"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "3441174"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "90252"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "528241"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "5165913"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7368871"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "79032"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "7440"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "3780"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "20137"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "466862"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "50160"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "914792"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "4763596"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "243701"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "48736"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "55941"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2506245"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2334642"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1402382"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "3283468"
+  },
+  {
+    "date": "2023-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2100001"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1700804"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "399189"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "3169"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "18139"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "209875"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1503364"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "3065"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "103"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "820"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "15936"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "2100"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "27431"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "176235"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "19106"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "5130"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "7202"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "370938"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "438474"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "253059"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "780393"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "15821240"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "12518057"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "3303183"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "62974"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "426036"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "4939678"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7478328"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "55117"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "5185"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "2672"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "14806"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "376982"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "41197"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "825295"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "4558575"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "235364"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "47220"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "54649"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2463082"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2313468"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1398793"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "3428834"
+  },
+  {
+    "date": "2024-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2112758"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1720023"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "392719"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "2311"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "15360"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "203730"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1531387"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "2233"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "77"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "644"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "13463"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "1820"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "25275"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "171043"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "18680"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "5020"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "7090"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "366800"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "436117"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "252598"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "811881"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "15474930"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "12307339"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "3167591"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "43107"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "339778"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "4710786"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7580214"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "37709"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "3545"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "1853"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "10735"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "300881"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "33499"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "738215"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "4349638"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "226818"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "45664"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "53315"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2418641"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2291165"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1392307"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "3570945"
+  },
+  {
+    "date": "2025-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2124052"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1738001"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "386030"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "1654"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "12861"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "197312"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1557950"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "1597"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "56"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "499"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "11244"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "1560"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "23119"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "165593"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "18226"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "4903"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "6972"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "362411"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "433575"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "251865"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "842408"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "15136233"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "12102103"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "3034130"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "28953"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "267648"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "4477184"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7674101"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "25314"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "2378"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "1262"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "7673"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "237074"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "26934"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "653890"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "4135041"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "217970"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "44047"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "51930"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2372567"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2267501"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1383878"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "3708775"
+  },
+  {
+    "date": "2026-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2134594"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1755448"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "379121"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "1161"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "10637"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "190604"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1583817"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "1121"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "41"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "381"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "9274"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "1322"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "20977"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "159874"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "17741"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "4778"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "6848"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "357763"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "430833"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "250832"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "872784"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "14806421"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "11903018"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2903403"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "19077"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "207983"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "4239052"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7763221"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "16670"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "1564"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "843"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "5405"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "184191"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "21384"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "573051"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "3915144"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "208816"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "42367"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "50498"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2324947"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2242440"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1373314"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "3845785"
+  },
+  {
+    "date": "2027-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "0"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2144545"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1767866"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "376653"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "799"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "8682"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "183599"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1604536"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "770"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "29"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "287"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "7547"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "1106"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "18863"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "153878"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "17224"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "4645"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "6718"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "352837"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "427886"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "249607"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "898457"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "4665"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "14485125"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "11691729"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2793397"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "12324"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "159275"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "3996745"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7831233"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "10762"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "1009"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "552"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "3751"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "140972"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "16741"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "496447"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "3690458"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "199354"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "40621"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "49017"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2275823"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2215961"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1361306"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "3964973"
+  },
+  {
+    "date": "2028-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "17375"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2153447"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1777405"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "376015"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "538"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "6988"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "176292"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1622294"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "519"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "20"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "212"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "6055"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "913"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "16797"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "147605"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "16671"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "4503"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "6581"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "347614"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "424718"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "248205"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "921616"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "11391"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "14169474"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "11473356"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2696118"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "7797"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "120120"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "3750860"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7884724"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "6805"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "637"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "355"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "2565"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "106219"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "12909"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "424807"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "3461706"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "189595"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "38810"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "47485"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2225186"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2188061"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1347945"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4072829"
+  },
+  {
+    "date": "2029-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "43561"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2161455"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1783462"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "377966"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "355"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "5543"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "168687"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1636518"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "341"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "13"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "155"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "4788"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "742"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "14798"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "141060"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "16084"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "4351"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "6436"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "342081"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "421310"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "246639"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "941698"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "20933"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "13860058"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "11244353"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2615705"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "4827"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "89171"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "3502227"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7921156"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "4210"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "394"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "223"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "1727"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "78758"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "9796"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "358772"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "3229816"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "179558"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "36934"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "45899"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2172975"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2158717"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1333352"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4166695"
+  },
+  {
+    "date": "2030-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "82231"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2168550"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1782813"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "385711"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "228"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "4332"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "160797"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1644002"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "219"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "9"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "111"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "3729"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "594"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "12887"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "134259"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "15462"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "4190"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "6283"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "336206"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "417655"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "244848"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "955564"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "36507"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "13556455"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "10989194"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2567261"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "2920"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "65144"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "3251889"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7925594"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "2545"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "238"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "137"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "1145"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "57457"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "7311"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "298851"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "2995911"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "169275"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "34998"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "44256"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2119083"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2127927"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1317169"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4231970"
+  },
+  {
+    "date": "2031-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "148181"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2175034"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1778610"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "396398"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "143"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "3335"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "152638"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1647920"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "137"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "6"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "79"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "2861"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "468"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "11086"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "127218"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "14805"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "4020"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "6120"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "329963"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "413744"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "242891"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "966340"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "55270"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "13260319"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "10722113"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2538206"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "1724"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "46834"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "3001066"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7912498"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "1502"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "140"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "83"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "748"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "41245"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "5366"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "245368"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "2761280"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "158782"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "33005"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "42550"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2063393"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2095665"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1299787"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4282709"
+  },
+  {
+    "date": "2032-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "228697"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2180686"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1771505"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "409157"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "87"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "2528"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "144240"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1648924"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "84"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "4"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "55"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "2162"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "363"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "9414"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "119969"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "14114"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "3841"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "5949"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "323328"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "409567"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "240779"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "974673"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "76361"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "12971034"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "10446376"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2524658"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "992"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "33137"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "2751288"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7884880"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "863"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "80"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "48"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "482"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "29134"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "3874"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "198454"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "2527496"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "148126"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "197732"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "30964"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "40779"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "2005770"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2061916"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1281363"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4321731"
+  },
+  {
+    "date": "2033-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "319952"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2185291"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1762377"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "422892"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "52"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "1887"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "135634"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1647897"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "49"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "2"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "37"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "1608"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "277"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "7886"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "112544"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "13391"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "3654"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "5767"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "316271"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "405106"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "238511"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "981469"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "98698"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "12687989"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "10166513"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2521476"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "555"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "23071"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "2504340"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7846589"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "483"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "45"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "28"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "305"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "20248"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "2751"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "158041"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "2296371"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "137364"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "28883"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "38942"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1946069"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "2026652"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1261939"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4352808"
+  },
+  {
+    "date": "2034-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "417061"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2188863"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1751154"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "437689"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "30"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "1386"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "126862"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1644757"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "28"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "1"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "25"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "1177"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "208"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "6513"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "104982"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "12638"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "3458"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "5575"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "308762"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "400345"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "236087"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "986655"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "122389"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "12412083"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "9883325"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2528759"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "302"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "15804"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "2262162"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7797412"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "262"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "24"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "15"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "190"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "13843"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "1921"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "123882"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "2069847"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "126562"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "26775"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "37042"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1884137"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "1989854"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1241514"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4375665"
+  },
+  {
+    "date": "2035-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "520550"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2191505"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1738485"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "453003"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "16"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "1002"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "117974"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1640134"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "16"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "1"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "16"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "847"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "154"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "5302"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "97334"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "11859"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "3255"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "5372"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "300774"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "395273"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "233497"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "990878"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "146910"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "12144720"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "9601204"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2543516"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "159"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "10647"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "2026774"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7740499"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "138"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "13"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "8"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "116"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "9306"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "1320"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "95559"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "1849921"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "115790"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "24651"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "35086"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1819844"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "1951507"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "0"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1220106"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4393360"
+  },
+  {
+    "date": "2036-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "627996"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2193224"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1724584"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "468625"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "9"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "711"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "109029"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1634210"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "8"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "11"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "599"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "112"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "4254"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "89654"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "11058"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "3045"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "5159"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "292285"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "389883"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "230724"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "994341"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "172076"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "11886784"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "9322507"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2564277"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "81"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "7050"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "1800172"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7676841"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "70"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "6"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "4"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "70"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "6148"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "891"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "72534"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "1638546"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "105126"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "22526"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "33079"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1753098"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "1911601"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1197670"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4406839"
+  },
+  {
+    "date": "2037-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "738575"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2193936"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1709540"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "484382"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "5"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "495"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "100089"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1627038"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "4"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "7"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "415"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "80"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "3364"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "82003"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "10239"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "2831"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "4935"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "283280"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "384150"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "227772"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "997110"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "11638467"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "9048798"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2589668"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "40"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "4584"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "1584228"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7606644"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "35"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "3"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "2"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "41"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "3988"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "591"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "54181"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "1437535"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "94654"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "20415"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "31030"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1683837"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "1870099"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1174183"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4416263"
+  },
+  {
+    "date": "2038-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "851609"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2193562"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1693410"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "500140"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "2"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "339"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "91221"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1618630"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "2"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "4"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "283"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "56"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "2621"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "74440"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "9409"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "2614"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "4702"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "273748"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "378058"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "224634"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "999213"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "223766"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "11400021"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "8781576"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2618444"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "19"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "2924"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "1380684"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7530088"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "16"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "2"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "1"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "24"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "2537"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "385"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "39835"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "1248548"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "84462"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "18339"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "28949"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1612031"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "1826988"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1149610"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4421739"
+  },
+  {
+    "date": "2039-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "966554"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2192024"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1676206"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "515808"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "1"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "227"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "82493"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1608952"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "1"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "2"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "188"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "39"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "2014"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "67027"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "8574"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "2395"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "4459"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "263686"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "371600"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "221297"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "1000627"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "250107"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "11171491"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "8521934"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2649557"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "9"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "1828"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "1191048"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7447101"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "7"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "1"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "1"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "13"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "1581"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "245"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "28833"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "1072998"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "74639"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "16317"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "26848"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1537687"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "1782246"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1123935"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4423116"
+  },
+  {
+    "date": "2040-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "1083024"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2189391"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1658021"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "531360"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "149"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "73977"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1598045"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "1"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "123"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "26"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "1524"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "59827"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "7741"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "2176"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "4207"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "253095"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "364757"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "217761"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "1001403"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "276740"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "10953532"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "8271172"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2682360"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "4"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "1118"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "1016563"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7358020"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "3"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "7"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "965"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "153"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "20546"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "912031"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "65275"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "14368"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "24736"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1460852"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "1735846"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1097132"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4420663"
+  },
+  {
+    "date": "2041-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "1200956"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2185579"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1638848"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "546724"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "0"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "95"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "65752"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1585844"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(i) WWII only",
+    "veterans": "0"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "1"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "78"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "17"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "1136"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "52909"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "6922"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "1958"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "3946"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "241986"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "357521"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "214004"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "1001492"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "303600"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "10745698"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "8029626"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2716072"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "2"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "669"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "858131"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7262518"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "1"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "4"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "575"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "94"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "14413"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "766439"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "56457"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "12514"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "22627"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "1381637"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "1687732"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "1069170"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "4414017"
+  },
+  {
+    "date": "2042-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "1320017"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "2180802"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "1619039"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "561757"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "0"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "59"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "57893"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "1572644"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(m) KC only",
+    "veterans": "48"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "11"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "834"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(p) VNE only",
+    "veterans": "46335"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(q) VNE & GW Era - Pre 9/11",
+    "veterans": "6124"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(r) VNE, GW Era - Pre 9/11, GW Era - Post 9/11",
+    "veterans": "1746"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(s) VNE & GW Era - Post 9/11",
+    "veterans": "3677"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(t) Between VNE & GW Era",
+    "veterans": "230382"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(u) GW Era - Pre 9/11 only",
+    "veterans": "349874"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(v) GW Era - Pre 9/11 & GW Era - Post 9/11",
+    "veterans": "210027"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(w) GW Era - Post 9/11 only",
+    "veterans": "1001196"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Female",
+    "period_of_service": "(x) Post GW Era",
+    "veterans": "330541"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(a) All Veterans (b+c)",
+    "veterans": "10549070"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(b) Wartime Veterans (i+j+k+m+n+p+q+r+s+u+v+w)",
+    "veterans": "7799399"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(c) Peacetime Veterans (h+l+o+t+x)",
+    "veterans": "2749671"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(d) World War II (i+j+k)",
+    "veterans": "1"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(e) Korean Conflict (j+k+m+n)",
+    "veterans": "390"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(f) Vietnam Era (k+n+p+q+r+s)",
+    "veterans": "716280"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(g) Gulf War Era (q+r+s+u+v+w)",
+    "veterans": "7162356"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(h) Pre-WWII",
+    "veterans": "0"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(i) WWII only",
+    "veterans": "1"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(j) WWII & KC",
+    "veterans": "0"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(k) WWII, KC, VNE",
+    "veterans": "0"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(l) Between WWII & KC",
+    "veterans": "2"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(m) KC only",
+    "veterans": "334"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(n) KC & VNE",
+    "veterans": "56"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(o) Between KC & VNE",
+    "veterans": "9952"
+  },
+  {
+    "date": "2043-09-30T00:00:00.000",
+    "sex": "Male",
+    "period_of_service": "(p) VNE only",
+    "veterans": "636652"
+  }
+]

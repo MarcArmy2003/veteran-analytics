@@ -1,0 +1,13 @@
+# Environment files
+.env
+
+# Python artifacts
+*.pyc
+__pycache__/
+
+# Data cache
+src/vista-api-backend/data/*
+!src/vista-api-backend/data/.gitkeep
+
+# Jupyter notebooks checkpoints (if applicable)
+.ipynb_checkpoints

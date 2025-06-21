@@ -1,29 +1,6 @@
-# Python environments
-venv/
-env/
 
-# Python cache
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# System and IDE files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Build and temp files
-*.log
-*.bak
-*.swp
-dist/
-build/
-*.egg-info/
-
-# Credential files (even if removed)
-*.json
-
-# Output files (if re-added later)
-data/VISTA_Repository/
+# Google Cloud Service Account Keys
+misfit/vista-api-backend-6578a1a1c769.json
+specs/vista-api-backend-6578a1a1c769.json
+specs/vista-api-backend-6578a1a1c769.json
+misfit/vista-api-backend-6578a1a1c769.json

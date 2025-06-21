@@ -1,0 +1,518 @@
+
+```json
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Open VA Data API",
+    "version": "1.0.0",
+    "description": "This OpenAPI 3.1.0 spec includes 123 unique datasets from the Department of Veterans Affairs Open Data Catalog. All endpoints are GET requests to VA public datasets served via Socrata APIs."
+  },
+  "servers": [
+    {
+      "url": "https://www.data.va.gov/resource",
+      "description": "VA Open Data Socrata API"
+    }
+  ],
+  "paths": {
+    "/benefits": {
+      "get": {
+        "operationId": "getBenefitsData",
+        "summary": "Retrieves benefits-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: va4a-ptj8.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/population": {
+      "get": {
+        "operationId": "getPopulationData",
+        "summary": "Retrieves population-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: ve97-jdsp.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/facilities": {
+      "get": {
+        "operationId": "getFacilitiesData",
+        "summary": "Retrieves facilities-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: uafb-ne25.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/expenditures": {
+      "get": {
+        "operationId": "getExpendituresData",
+        "summary": "Retrieves expenditures-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: 5b4p-6aq2.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/loans": {
+      "get": {
+        "operationId": "getLoansData",
+        "summary": "Retrieves loans-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: ey9g-uxvm.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "operationId": "getHealthData",
+        "summary": "Retrieves health-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: 5xun-beu8.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pension": {
+      "get": {
+        "operationId": "getPensionData",
+        "summary": "Retrieves pension-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: tmnn-2iqd.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/education": {
+      "get": {
+        "operationId": "getEducationData",
+        "summary": "Retrieves education-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: ytqn-wfc3.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/employment": {
+      "get": {
+        "operationId": "getEmploymentData",
+        "summary": "Retrieves employment-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: ahvc-pqda.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/periods-of-service": {
+      "get": {
+        "operationId": "getPeriodsOfServiceData",
+        "summary": "Retrieves periods-of-service datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: aftv-s6aw.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/minority": {
+      "get": {
+        "operationId": "getMinorityData",
+        "summary": "Retrieves minority-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: esdj-yhpu.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/demographics": {
+      "get": {
+        "operationId": "getDemographicsData",
+        "summary": "Retrieves demographics-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: ve97-jdsp.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/war-service": {
+      "get": {
+        "operationId": "getWarServiceData",
+        "summary": "Retrieves war-service related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: ufuk-sphg.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/projections": {
+      "get": {
+        "operationId": "getProjectionsData",
+        "summary": "Retrieves projections-related datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: sbtk-kfnm.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/life-tables": {
+      "get": {
+        "operationId": "getLifeTablesData",
+        "summary": "Retrieves life tables datasets",
+        "parameters": [
+          {
+            "name": "dataset",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The dataset to retrieve. Example: pgjq-abwt.json"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+### Summary of Paths Included
+- `/benefits`: For datasets related to benefits.
+- `/population`: For datasets related to population.
+- `/facilities`: For datasets related to VA facilities.
+- `/expenditures`: For datasets related to expenditures.
+- `/loans`: For datasets related to loans.
+- `/health`: For datasets related to health.
+- `/pension`: For datasets related to pensions.
+- `/education`: For datasets related to education.
+- `/employment`: For datasets related to employment.
+- `/periods-of-service`: For datasets related to periods of service.
+- `/minority`: For datasets related to minority veterans.
+- `/demographics`: For datasets related to demographics.
+- `/war-service`: For datasets related to war service.
+- `/projections`: For datasets related to projections.
+- `/life-tables`: For datasets related to life tables.
+
+This format organizes the paths into logical categories as specified and utilizes query parameters to identify the exact dataset to be retrieved. This ensures a clean JSON structure and addresses all the critical errors noted earlier.
