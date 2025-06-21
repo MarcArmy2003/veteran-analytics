@@ -2,7 +2,7 @@ import gspread
 import pandas as pd
 
 # --- Configuration ---
-SERVICE_ACCOUNT_KEY_FILE = 'vista-api-backend-6578a1a1c769.json'
+SERVICE_ACCOUNT_KEY_FILE = 'service-account.json'
 SPREADSHEET_TITLE = 'Open VA Data APIs'
 WORKSHEET_NAMES = [
     "API Name and Path",
