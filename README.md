@@ -43,7 +43,6 @@ veteran-analytics/
 │   └── Metlakatla/             # Specialized or legacy subroutines (nested folder)
 ├── specs/                      # API specifications, table schemas, and legacy C API interfaces
 │   └── Apia/                   # Subfolder for schema-related or experimental specifications
-├── tools/                      # Standalone utilities and Git tooling not part of core source
 ├── legal/                      # Licensing, terms of use, and compliance documentation
 ├── .gitignore                  # Git exclusion rules for build, system, and binary files
 └── README.md                   # This file – project overview and contributor instructions
