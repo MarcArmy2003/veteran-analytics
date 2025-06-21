@@ -71,10 +71,31 @@ pytest
 
 ### Configuration
 
+
+
+```yaml
+paths:
+  ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR: /path/to/ChatGPT Instructions
+  ONEDRIVE_VISTA_API_BACKEND_DIR: /path/to/ChatGPT Instructions/VISTA API Backend
+  NEW_VISTA_PROJECT_ROOT: /path/to/VISTA_Project
+  MARKDOWN_OUTPUT_FOLDER: /path/to/ABR Excel Table Markdowns
+```
+
+You can also set these variables directly in your shell before running any
+script, for example:
+
+```bash
+export NEW_VISTA_PROJECT_ROOT=/projects/vista
+```
+
+If no values are provided, the scripts fall back to their original Windows
+paths.
+=======
 The API's public URL is exposed through a Cloudflare Tunnel. This URL changes
 whenever you start a new tunnel. Set the `API_BASE_URL` environment variable (or
 edit `.env`) to your current Cloudflare URL and update `openapi_spec.yaml`
 accordingly whenever a new tunnel is created.
+
 
 -----
 

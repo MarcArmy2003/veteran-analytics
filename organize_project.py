@@ -4,6 +4,8 @@ from pathlib import Path
 import re # Import for regular expressions
 import datetime # Import for better date display
 
+from config_loader import get_path
+
 # Import helper functions from file_helpers.py
 # Ensure file_helpers.py is in the same directory as this script.
 # This direct import will resolve the 'NameError'
@@ -16,13 +18,22 @@ from file_helpers import (
     delete_file_with_confirmation
 )
 
-# --- Configuration for Organization Script (Paths derived directly from your input) ---
-# These are the *original* folders you want to pull files FROM for organization.
-SOURCE_ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR = Path(r"C:\Users\gillo\OneDrive\Documents\ChatGPT Instructions")
-SOURCE_ONEDRIVE_VISTA_API_BACKEND_DIR = Path(r"C:\Users\gillo\OneDrive\Documents\ChatGPT Instructions\VISTA API Backend")
+# --- Configuration for Organization Script ---
+# Folders can be configured via environment variables or `config.yml`.
+SOURCE_ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR = get_path(
+    "ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR",
+    r"C:\Users\gillo\OneDrive\Documents\ChatGPT Instructions",
+)
+SOURCE_ONEDRIVE_VISTA_API_BACKEND_DIR = get_path(
+    "ONEDRIVE_VISTA_API_BACKEND_DIR",
+    r"C:\Users\gillo\OneDrive\Documents\ChatGPT Instructions\VISTA API Backend",
+)
 
 # This is your NEW, clean working directory where the GitHub repo is cloned.
-DESTINATION_VISTA_PROJECT_ROOT = Path(r"C:\VISTA_Project")
+DESTINATION_VISTA_PROJECT_ROOT = get_path(
+    "NEW_VISTA_PROJECT_ROOT",
+    r"C:\VISTA_Project",
+)
 
 # Define mapping for file extensions and keywords to target subdirectories
 # This mapping is based on common project structures and your existing GitHub repo.
@@ -373,12 +384,21 @@ if __name__ == "__main__":
             advanced_command = input(">>> ")
             # Provide access to Path objects for convenience in eval
             _globals = globals()
-            _globals['Path'] = Path # Make Path available in eval context
-            _globals['ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR'] = SOURCE_ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR # Use SOURCE_ for consistency
-            _globals['NEW_VISTA_PROJECT_ROOT'] = DESTINATION_VISTA_PROJECT_ROOT # Use DESTINATION_ for consistency
-            _globals['ONEDRIVE_VETERAN_ANALYTICS_DIR'] = Path(r"C:\Users\gillo\OneDrive\Documents\veteran-analytics") # Directly use Path object
-            _globals['ONEDRIVE_VETERAN_ANALYTICS_BACKUP_DIR'] = Path(r"C:\Users\gillo\OneDrive\Documents\veteran-analytics - backup") # Directly use Path object
-            _globals['LOCAL_ARCHIVE_DESTINATION_DIR'] = Path(r"D:\VISTA_Data_Archive") # Directly use Path object
+            _globals['Path'] = Path  # Make Path available in eval context
+            _globals['ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR'] = SOURCE_ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR
+            _globals['NEW_VISTA_PROJECT_ROOT'] = DESTINATION_VISTA_PROJECT_ROOT
+            _globals['ONEDRIVE_VETERAN_ANALYTICS_DIR'] = get_path(
+                'ONEDRIVE_VETERAN_ANALYTICS_DIR',
+                r"C:\Users\gillo\OneDrive\Documents\veteran-analytics",
+            )
+            _globals['ONEDRIVE_VETERAN_ANALYTICS_BACKUP_DIR'] = get_path(
+                'ONEDRIVE_VETERAN_ANALYTICS_BACKUP_DIR',
+                r"C:\Users\gillo\OneDrive\Documents\veteran-analytics - backup",
+            )
+            _globals['LOCAL_ARCHIVE_DESTINATION_DIR'] = get_path(
+                'LOCAL_ARCHIVE_DESTINATION_DIR',
+                r"D:\VISTA_Data_Archive",
+            )
             
             # Make the imported helper functions available in the eval context
             _globals['get_file_hash'] = get_file_hash
