@@ -24,11 +24,3 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pylint
-        # The following line assumes all your runtime dependencies are in 'src/vista-api-backend'
-        # Adjust the path if your requirements.txt is elsewhere.
-        if [ -f src/vista-api-backend/requirements.txt ]; then pip install -r src/vista-api-backend/requirements.txt; fi
-    - name: Analysing the code with pylint
-      # Adjust the path to lint all relevant Python files.
-      # The command below targets the 'app' directory inside 'src/vista-api-backend'.
-      run: |
-        pylint $(find src/vista-api-backend/app -name "*.py")

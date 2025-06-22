@@ -16,7 +16,11 @@ The **VISTA (Veteran Insights & Statistics Tool for Analysis)** project aims to 
 
   * **Automated Data Processing**: Scripts that automatically clean, chunk, and structure raw government data (Excel, CSV) into formats ready for AI analysis.
   * **AI-Powered Knowledge Base**: Integration with **Google Cloud's Vertex AI** to create a powerful, searchable repository of veteran-related information.
+<<<<<<< HEAD
   * **Scalable API Backend**: A **Flask**-based API (see `src/vista-api-backend`) to serve the processed data, enabling the creation of web applications and other tools.
+=======
+  * **Modular GPT & Data Framework**: All backend logic is organized under `src/`, with dedicated modules for ingestion (`data-loaders/`) and GPT prompt handling (`gpt-actions/`). Flask-based APIs and services, if reintroduced, will reside under `app/` for clarity and scalability.
+>>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
   * **Cloud-Native Architecture**: Designed from the ground up to run on **Google Cloud Platform**, utilizing services like Cloud Run for deployment and Cloud Storage for data management.
 
 -----
@@ -27,6 +31,7 @@ This repository is a monorepo containing all the code, documentation, and assets
 
 ```plaintext
 veteran-analytics/
+<<<<<<< HEAD
 ├── src/                  # All source code, including the API and data loaders
 │   ├── vista-api-backend/  # The core Flask API and processing engine
 │   └── ...
@@ -35,6 +40,27 @@ veteran-analytics/
 ├── legal/                # Terms of use and trademark information
 ├── .gitignore            # Git ignore rules for the entire project
 └── README.md             # This file
+=======
+├── .github/                    # GitHub configuration and automation
+│   └── workflows/              # GitHub Actions CI/CD workflows
+├── app/                        # Core application logic (e.g., UI, API, or service layer)
+├── config/                     # Project-level settings and environment configuration
+├── src/                        # Source code modules for data processing and GPT tooling
+│   ├── data-loaders/           # Ingestion, transformation, and preprocessing routines
+│   ├── gpt-actions/            # Prompt routing and GPT interaction logic
+├── docs/                       # Technical documentation, internal SOPs, and architecture records
+├── data/                       # Structured reference datasets used in development or testing
+├── assets/                     # Visual and brand assets used across the project
+│   ├── images/                 # Graphics, diagrams, and screenshots
+│   ├── logos/                  # Official logos for presentations and docs
+├── scripts/                    # Utility scripts for data processing, transformation, and repository maintenance
+│   └── Metlakatla              # Compiled timezone data file
+├── specs/                      # API specifications, table schemas, and legacy C API interfaces
+│   └── Apia/                   # Subfolder for schema-related or experimental specifications
+├── legal/                      # Licensing, terms of use, and compliance documentation
+├── .gitignore                  # Git exclusion rules for build, system, and binary files
+└── README.md                   # This file – project overview and contributor instructions
+>>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
 ```
 
 -----
@@ -90,7 +116,10 @@ export NEW_VISTA_PROJECT_ROOT=/projects/vista
 
 If no values are provided, the scripts fall back to their original Windows
 paths.
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
 The API's public URL is exposed through a Cloudflare Tunnel. This URL changes
 whenever you start a new tunnel. Set the `API_BASE_URL` environment variable (or
 edit `.env`) to your current Cloudflare URL and update `openapi_spec.yaml`

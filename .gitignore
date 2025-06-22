@@ -1,6 +1,4 @@
-# ===========================
-# Python Environment & Caches
-# ===========================
+# Python
 venv/
 env/
 __pycache__/
@@ -8,17 +6,20 @@ __pycache__/
 *.pyo
 *.pyd
 *.pyc
+*.pyd
+*.so
+*.dll
+*.lib
 
-# ====================
+
+
+
 # Build & Distribution
-# ====================
 build/
 dist/
 *.egg-info/
 
-# =====================
 # System & Editor Files
-# =====================
 .DS_Store
 Thumbs.db
 .vscode/
@@ -27,31 +28,27 @@ Thumbs.db
 *.bak
 *.swp
 
-# ======================
+
 # Jupyter Notebook Files
-# ======================
 .ipynb_checkpoints/
 
-# ====================
 # Environment Variables
-# ====================
 .env
 
-# ==========================
 # Credential & JSON Artifacts
-# ==========================
 *.json
 
-# ============================
 # Data & Output File Exclusion
-# ============================
-data/VISTA_Repository/
-src/vista-api-backend/data/*
-!src/vista-api-backend/data/.gitkeep
+/VISTA_Repository/
 
-# ====================
-# Miscellaneous Caches
-# ====================
+# Miscellaneous Caches=
 *.tar.gz
 *.tzdata
 dateutil/zoneinfo/
+
+
+# Google Cloud Service Account Keys
+misfit/vista-api-backend-6578a1a1c769.json
+specs/vista-api-backend-6578a1a1c769.json
+
+
