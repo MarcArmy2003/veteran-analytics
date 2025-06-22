@@ -1,0 +1,11 @@
+paths:
+  ONEDRIVE_CHATGPT_INSTRUCTIONS_DIR: "C:/Users/gillo/OneDrive/Documents/ChatGPT Instructions"
+  ONEDRIVE_VISTA_API_BACKEND_DIR: "C:/Users/gillo/OneDrive/Documents/ChatGPT Instructions/VISTA API Backend"
+  ONEDRIVE_XLS_TO_PROCESS_DIR: "C:/Users/gillo/OneDrive/Documents/ChatGPT Instructions/XLS_TO_PROCESS"
+  ONEDRIVE_VETERAN_ANALYTICS_BACKUP_DIR: "C:/Users/gillo/OneDrive/Documents/veteran-analytics - backup"
+  ONEDRIVE_VETERAN_ANALYTICS_DIR: "C:/Users/gillo/OneDrive/Documents/veteran-analytics"
+  NEW_VISTA_PROJECT_ROOT: "C:/VISTA_Project"
+  LOCAL_ARCHIVE_DESTINATION_DIR: "D:/VISTA_Data_Archive"
+  XLS_INPUT_FOLDER: "C:/VISTA_TEMP/data/XLS_TO_PROCESS"
+  CSV_INPUT_FOLDER: "C:/VISTA_TEMP/data/XLS_TO_PROCESS/CSV_Output"
+  MARKDOWN_OUTPUT_FOLDER: "C:/VISTA_Repository/ABR Excel Table Markdowns"
