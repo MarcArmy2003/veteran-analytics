@@ -19,8 +19,8 @@ The **VISTA (Veteran Insights & Statistics Tool for Analysis)** project aims to 
 <<<<<<< HEAD
   * **Scalable API Backend**: A **Flask**-based API (see `src/vista-api-backend`) to serve the processed data, enabling the creation of web applications and other tools.
 =======
-  * **Modular GPT & Data Framework**: All backend logic is organized under `src/`, with dedicated modules for ingestion (`data-loaders/`) and GPT prompt handling (`gpt-actions/`). Flask-based APIs and services, if reintroduced, will reside under `app/` for clarity and scalability.
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
+  * **Modular GPT & Data Framework**: All backend logic is organized under `src/`, with dedicated modules for ingestion (`data-loaders/`) and GPT prompt handling (`gpt-actions/`). Flask-based APIs and services, if reintroduced, will reside under `app/` for clarity.
+
   * **Cloud-Native Architecture**: Designed from the ground up to run on **Google Cloud Platform**, utilizing services like Cloud Run for deployment and Cloud Storage for data management.
 
 -----
