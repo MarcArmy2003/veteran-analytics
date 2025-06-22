@@ -1,3 +1,49 @@
+## VISTA Project Log: 2025-06-22
+
+**Session Time:** 12:54 AM EDT
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+* **Objective 1: Secure Cloud Deployment of API Backend**
+    * Successfully provisioned and securely stored the Google Cloud Service Account Key in Google Cloud Secret Manager.
+    * Granted the necessary `secretmanager.secretAccessor` IAM role to the Cloud Run service account for the secret.
+    * Successfully containerized the Flask API application into a Docker image.
+    * Successfully pushed the Docker image to Google Container Registry.
+    * Successfully deployed the Flask API to Google Cloud Run, configured to securely retrieve credentials from Secret Manager at runtime.
+* **Decision:**
+    * Established and implemented the critical security decision to **never commit service account keys directly to GitHub**.
+    * Adopted the use of environment variables (`GOOGLE_APPLICATION_CREDENTIALS`) for handling credentials in `app.py` for both local and cloud environments.
+    * Confirmed using Google Cloud Secret Manager as the secure storage solution for production secrets.
+    * Consolidated `Dockerfile`, `app.py`, and `requirements.txt` into a single `/app` directory within `vista-api-backend` for streamlined Docker builds.
+
+* **Code Created/Modified:**
+    * `app.py`: Updated to read `GOOGLE_APPLICATION_CREDENTIALS` from environment variables; added detailed comments and docstrings.
+    * `Dockerfile`: Content provided and used for containerization.
+
+### ⚠️ Challenges & Roadblocks
+
+* **Issue: Permission Denied during Secret Creation:** Initially, the authenticated Google Cloud account lacked the necessary IAM permissions to create secrets.
+* **Solution:** Resolved by explicitly granting the `Secret Manager Admin` role (or confirming `Owner` role) to the user's Google Cloud account via the IAM section in the Google Cloud Console.
+* **Issue: Windows Command Prompt (CMD) Syntax Differences:** Repeated errors due to incorrect syntax for environment variables (`export` vs `set`, `${VAR}` vs `%VAR%`) and multi-line commands (`#` comments, missing `^` characters) in `cmd.exe`.
+* **Solution:** Provided precise `cmd.exe` syntax for setting environment variables (`set VAR=value`) and for multi-line command continuation (`^`).
+* **Issue: Docker Daemon Connectivity:** Encountered "ERROR: error during connect: The system cannot find the file specified" when attempting `docker build`, implying Docker Desktop was not running.
+* **Solution:** Ensured Docker Desktop application was fully running and accessible before re-attempting Docker commands.
+* **Issue: Unauthenticated Docker Push:** Received "error from registry: Unauthenticated request" when pushing the Docker image to GCR.
+* **Solution:** Authenticated Docker with Google Cloud credentials using `gcloud auth configure-docker`.
+* **Issue: "Image not found" during Cloud Run Deployment:** Initial deployment failed because the Cloud Run service could not locate the Docker image.
+* **Solution:** This was a cascading issue resolved by the successful `docker build` and `docker push` commands following the authentication fix.
+* **Issue: `gcloud` Project ID Not Recognized:** The `--project=%GOOGLE_CLOUD_PROJECT%` was not always correctly interpreted, leading to `not a valid project ID` error.
+* **Solution:** Explicitly set the default `gcloud` project for the CLI session using `gcloud config set project vista-api-backend`.
+
+### 🚀 Next Steps
+
+* **Immediate Goal:** Thoroughly test the newly deployed Cloud Run API service using the provided Service URL to confirm all endpoints function correctly.
+* **Future Goal:** Begin refining the OpenAPI documentation (`openapi_spec.yaml`) and enhancing overall project documentation (`README.md`, `project-overview.md`), incorporating the clarity gained from deployment. Subsequently, start sketching out the user interface and user flow for the VISTA application, building upon the now-accessible API.
+
+----
+
 ## 🗓️ Date: 2025-06-21
 **Session Time:** 3:45 AM EDT
 
@@ -25,6 +71,9 @@
 
 - **Immediate Goal:** File organization phase marked complete.
 - **Future Goal:** Determine next steps, potentially building a scalable data ingestion solution on Google Cloud, formalizing legal paperwork, and setting up placeholder websites.
+
+----
+
 ## 🗓️ Date: 2025-06-20
 **Session Time:** 01:00 AM EDT
 
@@ -78,6 +127,7 @@
 **Session Time:** 12:15 PM EDT
 **Environment:** Local Python venv, Windows Command Line, Google Clou
 
+----
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -93,11 +143,15 @@
 
 ### 🚀 Next Steps
 
+----
+
 ## 🗓️ Date: 2025-06-16
 **Developer:** Gillon Marchetti
 **Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+---
 **Session Time:** 12:05 AM–10:27 PM EDT
 **Environment:** Local Python venv, Git CLI, GitHub UI, OneDrive, gcloud CLI, Google Cloud Storage, Windows Command Line
+----
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -125,15 +179,16 @@
 
 - Vim was used to resolve a Git merge.
 - Markdown links must reference raw GitHub content for ingestion.
-
+----
 
 ## 🗓️ Date: 2025-06-15
 **Developer:** Gillon Marchetti
 **Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+---
 **Session Time:** 11:15 AM EDT
 **Environment:** Local Python venv, Windows Command Line
 
----
+----
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -150,14 +205,17 @@
 
 * **Immediate Goal:** Run the `definitive_chunker.py` script from the `C:\VISTA_TEMP` directory to process all the source `.xls` files.
 * **Future Goal:** After the script successfully converts all files, copy the cleaned `.txt` files from the output folder back into the main `VISTA_Repository`, sync the repository with Google Cloud Storage, and trigger a `MANUAL SYNC` in Vertex AI to complete the data ingestion.
+  
+----
 
 ## 🗓️ Date: 2025-06-14
 **Developer:** Gillon Marchetti
 **Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+---
 **Session Time:** 11:55 PM EDT
 **Environment:** Local Python venv, Windows Command Line
 
----
+----
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -207,14 +265,15 @@
 
 * **Immediate Goal:** Refine the `sheets_reader.py` script to successfully load data from all worksheets by correctly handling the problematic headers.
 * **Future Goal:** Integrate the now-functional data-loading script into a Flask application to create the first API endpoints.
-
+  
+----
 ## 🗓️ Date: 2025-06-12
 **Developer:** Gillon Marchetti
 **Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+---
 **Session Time:** 02:30 PM EDT
 **Environment:** Local Python venv, Windows Command Line
-
----
+----
 
 ### ✅ Accomplishments & Key Decisions
 
