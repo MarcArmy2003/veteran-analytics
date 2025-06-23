@@ -44,7 +44,8 @@
 
 ----
 
-## 🗓️ Date: 2025-06-21
+## VISTA Project Log: 2025-06-21
+
 **Session Time:** 3:45 AM EDT
 
 ---
@@ -72,11 +73,10 @@
 - **Immediate Goal:** File organization phase marked complete.
 - **Future Goal:** Determine next steps, potentially building a scalable data ingestion solution on Google Cloud, formalizing legal paperwork, and setting up placeholder websites.
 
-=======
-
 ----
 
-## 🗓️ Date: 2025-06-20
+## VISTA Project Log: 2025-06-20
+
 **Session Time:** 01:00 AM EDT
 
 ---
@@ -120,19 +120,13 @@
 - **Future Goal:** Diagnose and fix the "header row contains duplicates" error in the Flask API when deployed to Google Cloud Run to ensure a stable, permanent URL for the backend.
 - **Future Goal:** Refine the VISTA Custom GPT's instructions to optimize its interaction with the deployed API and RAG system for more intuitive and powerful natural language responses.
 
+----
+
+## VISTA Project Log: 2025-06-19
+
+**Session Time:** 12:15 PM EDT
 
 ---
-
-## 🗓️ Date: 2025-06-19
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
-**Session Time:** 12:15 PM EDT
-**Environment:** Local Python venv, Windows Command Line, Google Clou
-
-<<<<<<< HEAD
-=======
-----
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -148,23 +142,19 @@
 
 ### 🚀 Next Steps
 
-<<<<<<< HEAD
-## 🗓️ Date: 2025-06-16
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
-**Session Time:** 12:05 AM–10:27 PM EDT
-**Environment:** Local Python venv, Git CLI, GitHub UI, OneDrive, gcloud CLI, Google Cloud Storage, Windows Command Line
-=======
+- Validate `definitive_chunker_v4.py` across all datasets to produce sub-2.5MB `.txt` outputs and complete Vertex AI ingestion.
+- Purge previous ingest attempts from GCS (`vista-api-backend-rag-files`) and deploy new data using `gcloud storage rsync`, then trigger the ingestion pipeline within Vertex AI for final verification.
+- Confirm file visibility, completeness, and integrity within Vertex AI's retrieval system.
+- Begin formal API endpoint testing and confirm backend functionality after restructuring; plan deployment to Cloud Run or App Engine.
+- Commit finalized GitHub Actions CI/CD workflow (`pylint.yml`) and integrate automated checks into future pushes.
+
 ----
 
-## 🗓️ Date: 2025-06-16
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
----
+## VISTA Project Log: 2025-06-16
+
 **Session Time:** 12:05 AM–10:27 PM EDT
-**Environment:** Local Python venv, Git CLI, GitHub UI, OneDrive, gcloud CLI, Google Cloud Storage, Windows Command Line
-----
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
+
+---
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -188,31 +178,13 @@
 - Begin formal API endpoint testing and confirm backend functionality after restructuring; plan deployment to Cloud Run or App Engine.
 - Commit finalized GitHub Actions CI/CD workflow (`pylint.yml`) and integrate automated checks into future pushes.
 
-### 🔖 Notes
-
-- Vim was used to resolve a Git merge.
-- Markdown links must reference raw GitHub content for ingestion.
-<<<<<<< HEAD
-
-=======
 ----
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
 
-## 🗓️ Date: 2025-06-15
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
-<<<<<<< HEAD
+## VISTA Project Log: 2025-06-15
+
 **Session Time:** 11:15 AM EDT
-**Environment:** Local Python venv, Windows Command Line
 
 ---
-=======
----
-**Session Time:** 11:15 AM EDT
-**Environment:** Local Python venv, Windows Command Line
-
-----
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -229,27 +201,14 @@
 
 * **Immediate Goal:** Run the `definitive_chunker.py` script from the `C:\VISTA_TEMP` directory to process all the source `.xls` files.
 * **Future Goal:** After the script successfully converts all files, copy the cleaned `.txt` files from the output folder back into the main `VISTA_Repository`, sync the repository with Google Cloud Storage, and trigger a `MANUAL SYNC` in Vertex AI to complete the data ingestion.
-<<<<<<< HEAD
-=======
-  
-----
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
-
-## 🗓️ Date: 2025-06-14
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
-<<<<<<< HEAD
-**Session Time:** 11:55 PM EDT
-**Environment:** Local Python venv, Windows Command Line
-
----
-=======
----
-**Session Time:** 11:55 PM EDT
-**Environment:** Local Python venv, Windows Command Line
 
 ----
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
+
+## VISTA Project Log: 2025-06-14
+
+**Session Time:** 11:55 PM EDT
+
+---
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -272,11 +231,11 @@
 * **Immediate Goal:** Transition from the temporary Cloudflare Tunnel to a permanent, stable URL for the API backend.
 * **Future Goal:** Deploy the Flask application to Google Cloud Run to provide a production-ready API endpoint, which will allow for further iteration on the VISTA Custom GPT's instructions and capabilities.
 
-## 🗓️ Date: 2025-06-13
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+----
+
+## VISTA Project Log: 2025-06-13
+
 **Session Time:** 11:45 PM EDT
-**Environment:** Local Python venv, Windows Command Line
 
 ---
 
@@ -299,26 +258,14 @@
 
 * **Immediate Goal:** Refine the `sheets_reader.py` script to successfully load data from all worksheets by correctly handling the problematic headers.
 * **Future Goal:** Integrate the now-functional data-loading script into a Flask application to create the first API endpoints.
-<<<<<<< HEAD
 
-## 🗓️ Date: 2025-06-12
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
+----
+
+## VISTA Project Log: 2025-06-12
+
 **Session Time:** 02:30 PM EDT
-**Environment:** Local Python venv, Windows Command Line
 
 ---
-=======
-  
-----
-## 🗓️ Date: 2025-06-12
-**Developer:** Gillon Marchetti
-**Project:** VISTA – Veteran Insights & Statistics Tool for Analysis
----
-**Session Time:** 02:30 PM EDT
-**Environment:** Local Python venv, Windows Command Line
-----
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
 
 ### ✅ Accomplishments & Key Decisions
 
@@ -337,3 +284,4 @@
 
 * **Immediate Goal:** Begin the practical, hands-on development by setting up the necessary Google Cloud Project and service account credentials for the Google Sheets API.
 * **Future Goal:** Write the initial Python script to programmatically connect to the Google Sheet and read the data, which would serve as the foundation for the Flask API.
+
