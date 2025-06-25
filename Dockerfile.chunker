@@ -1,0 +1,20 @@
+# Use Python 3.11 base image
+FROM python:3.11-slim-buster
+
+# Set working directory
+WORKDIR /app
+
+# Copy files
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy rest of the code
+COPY . .
+
+# Set environment variables if needed
+ENV XLS_INPUT_FOLDER=gs://vista-api-backend-rag-files
+ENV TXT_OUTPUT_FOLDER=gs://vista-processed-markdowns
+
+# Run the chunker script
+CMD ["python", "scripts/definitive_chunker.py"]
+

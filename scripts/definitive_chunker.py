@@ -3,8 +3,8 @@ import os
 import pandas as pd
 import glob
 
-SOURCE_XLS_FOLDER = "XLS_TO_PROCESS"
-MARKDOWN_OUTPUT_FOLDER = "VISTA_Repository/ABR Excel Table Markdowns"
+SOURCE_XLS_FOLDER = os.getenv("XLS_INPUT_FOLDER", "XLS_TO_PROCESS")
+MARKDOWN_OUTPUT_FOLDER = os.getenv("TXT_OUTPUT_FOLDER", "VISTA_Repository/ABR Excel Table Markdowns")
 # This is now a hard limit in bytes. 2MB to be safe.
 MAX_BYTES = 2000000  
 
