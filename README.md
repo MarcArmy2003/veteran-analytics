@@ -25,46 +25,6 @@ The **VISTA (Veteran Insights & Statistics Tool for Analysis)** project aims to 
 
 -----
 
-### 🏛️ Repository Structure
-
-This repository is a monorepo containing all the code, documentation, and assets for the Veteran Analytics project.
-
-```plaintext
-veteran-analytics/
-<<<<<<< HEAD
-├── src/                  # All source code, including the API and data loaders
-│   ├── vista-api-backend/  # The core Flask API and processing engine
-│   └── ...
-├── docs/                 # Detailed documentation, architectural decisions, and guides
-├── assets/               # Shared assets like logos and style guides
-├── legal/                # Terms of use and trademark information
-├── .gitignore            # Git ignore rules for the entire project
-└── README.md             # This file
-=======
-├── .github/                    # GitHub configuration and automation
-│   └── workflows/              # GitHub Actions CI/CD workflows
-├── app/                        # Core application logic (e.g., UI, API, or service layer)
-├── config/                     # Project-level settings and environment configuration
-├── src/                        # Source code modules for data processing and GPT tooling
-│   ├── data-loaders/           # Ingestion, transformation, and preprocessing routines
-│   ├── gpt-actions/            # Prompt routing and GPT interaction logic
-├── docs/                       # Technical documentation, internal SOPs, and architecture records
-├── data/                       # Structured reference datasets used in development or testing
-├── assets/                     # Visual and brand assets used across the project
-│   ├── images/                 # Graphics, diagrams, and screenshots
-│   ├── logos/                  # Official logos for presentations and docs
-├── scripts/                    # Utility scripts for data processing, transformation, and repository maintenance
-│   └── Metlakatla              # Compiled timezone data file
-├── specs/                      # API specifications, table schemas, and legacy C API interfaces
-│   └── Apia/                   # Subfolder for schema-related or experimental specifications
-├── legal/                      # Licensing, terms of use, and compliance documentation
-├── .gitignore                  # Git exclusion rules for build, system, and binary files
-└── README.md                   # This file – project overview and contributor instructions
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
-```
-
------
-
 ### 💻 Core Technologies
 
 This project uses a modern, scalable technology stack:
@@ -116,15 +76,10 @@ export NEW_VISTA_PROJECT_ROOT=/projects/vista
 
 If no values are provided, the scripts fall back to their original Windows
 paths.
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8975b7b8cc7d821e1dafd4d8f49fe06cc087ef96
+
 The API's public URL is exposed through a Cloudflare Tunnel. This URL changes
 whenever you start a new tunnel. Set the `API_BASE_URL` environment variable (or
-edit `.env`) to your current Cloudflare URL and update `openapi_spec.yaml`
-accordingly whenever a new tunnel is created.
-
+edit `.env`) to your current Cloudflare URL and update `openapi_spec.yaml` whenever a new tunnel is created.
 
 -----
 
