@@ -1,3 +1,48 @@
+## VISTA Project Log: 2025-07-02
+
+**Session Time:** 11:23 PM EDT
+
+---
+
+### ✅ Accomplishments & Key Decisions
+
+* **Objective 1:** Successfully implemented a cloud-based solution for converting `.xls` files to Markdown (`.txt`) and deep-chunking them to meet Vertex AI Search ingestion size limits.
+* **Objective 2:** Successfully ran the `xls` conversion and deep-chunking job in Google Cloud Run.
+* **Decision:** Opted for a Cloud Run Job to perform the `xls` conversion and deep-chunking.
+* **Decision:** Decided to save the converted and deep-chunked Markdown files to a new, dedicated Cloud Storage path (`gs://vista-api-backend-rag-files/converted_and_deep_chunked_markdown/`) for clean ingestion into Vertex AI Search.
+* **Decision:** Determined that a new, separate Vertex AI Search data store for the converted XLS data is the wisest approach for clarity and isolation.
+* **Code Created/Modified:**
+    * `XLS_Deep_Chunker.py`: Modified the XLS conversion script to include deep-chunking logic and interact with Google Cloud Storage paths for input (`ABRs/ABR Tables/`) and output (`converted_and_deep_chunked_markdown/`).
+    * `Dockerfile`: Updated to correctly reference `XLS_Deep_Chunker.py` and streamline build steps.
+    * `requirements.txt`: Confirmed necessary libraries like `pandas`, `google-cloud-storage`, and `openpyxl`.
+
+### ⚠️ Challenges & Roadblocks
+
+* **Issue:** Initial `gsutil cp` commands in Cloud Shell failed due to placeholder filenames and later due to files not being in the current working directory.
+* **Solution:** Resolved by guiding precise `mv` commands and later relying on `cloudshell edit` for direct file manipulation in the correct directory.
+* **Issue:** `ServiceException: 401 Anonymous caller does not have storage.objects.create access` during Cloud Storage uploads and `storage.objects.get` during `gsutil ls`.
+* **Solution:** Resolved by confirming `Storage Object Admin` IAM role for the user account and allowing time for permissions propagation.
+* **Issue:** Docker image build failed (`COPY failed: file not found`) because the `Dockerfile` referenced the old script name (`definitive_convert_no_chunking_gcs.py`) instead of `XLS_Conversion.py` (which was renamed to `XLS_Deep_Chunker.py` for this purpose).
+* **Solution:** Updated the `Dockerfile` to correctly reference `XLS_Deep_Chunker.py`.
+* **Issue:** `gcloud run jobs create` failed with `unrecognized arguments: --no-cpu-throttling`.
+* **Solution:** Removed the unsupported `--no-cpu-throttling` flag for Cloud Run Jobs.
+* **Issue:** `gcloud run jobs update` failed with `unrecognized arguments: --timeout=3600 (did you mean '--task-timeout'?)`.
+* **Solution:** Corrected the flag to `--task-timeout=3600` for Cloud Run Jobs.
+* **Issue:** Cloud Run Job failed to find `.xls` files, logging "No .xls files found in the specified GCS path".
+* **Solution:** Identified the correct source path for `.xls` files as `ABRs/ABR Tables/` in the bucket and updated the `SOURCE_PREFIX` in `XLS_Deep_Chunker.py`.
+* **Issue:** Cloud Run Job timed out (`600 seconds`) before completing XLS conversion.
+* **Solution:** Increased the job timeout to 3600 seconds (1 hour) using `--task-timeout=3600`.
+* **Issue:** Vertex AI Search ingestion previously failed for `.xls` files with "File extension type is xls, and it is not supported" and later for converted `.txt` files due to exceeding 10MB limit ("can be at most 10000000 bytes, got 38922990").
+* **Solution:** Implemented `XLS_Deep_Chunker.py` to perform byte-size based deep-chunking of converted Markdown content, ensuring files are below the 10MB limit.
+
+### 🚀 Next Steps
+
+* **Immediate Goal:** Create a new Vertex AI Search data store (e.g., `vista-deep-chunked-xls-data`) pointing to `gs://vista-api-backend-rag-files/converted_and_deep_chunked_markdown/` to ingest the newly processed and deep-chunked XLS data.
+* **Future Goal:** Create a Vertex AI Search application to query the ingested data.
+* **Future Goal:** Integrate API calls using a Google Sheet as another data source within the final VISTA application.
+
+----
+
 ## VISTA Project Log: 2025-06-22
 
 **Session Time:** 12:54 AM EDT
