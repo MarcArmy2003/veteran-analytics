@@ -83,7 +83,7 @@ This project uses a modern, scalable technology stack:
 The primary component of this project is the **VISTA API Backend**. For detailed instructions on how to set up the development environment, run the data processing scripts, and launch the API, please see the dedicated README file:
 
 
-➡️ **[VISTA API Backend README](src/vista-api-backend/README.md)**
+➡️ [VISTA API Backend README](https://github.com/MarcArmy2003/vista-api-backend/blob/main/README.md)
 
 ### 🧪 Running Tests
 
